@@ -12,7 +12,7 @@ extract_has_root: true
 
 os_map:
   linux:
-    name: linus64
+    name: linux64
     ext: tar.gz
     bin_path: bin
   macos: 
