@@ -1,0 +1,28 @@
+info_url: https://neovim.io/
+releases_url: https://github.com/neovim/neovim/releases/
+git_user: neovim
+git_repo: neovim
+source_url: https://github.com/neovim/neovim
+
+base_download_url: https://github.com/neovim/neovim/releases/download/[VER]/
+filename_format: nvim-[OS].[EXT]
+latest_strategy: github-release # uses most recent github release tag to get the latest version number
+
+extract_has_root: true
+
+os_map:
+  linux:
+    name: linus64
+    ext: tar.gz
+    bin_path: bin
+  macos: 
+    name: macos
+    ext: tar.gz
+    bin_path: bin
+  win: 
+    name: win64
+    ext: zip
+    bin_path: bin
+arch_map:
+  amd64: x86_64
+# arm64: unsupported
