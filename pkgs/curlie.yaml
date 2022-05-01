@@ -1,0 +1,29 @@
+info_url: https://curlie.io/
+releases_url: https://github.com/rs/curlie/releases/
+git_user: rs
+git_repo: curlie
+source_url: https://github.com/rs/curlie
+
+base_download_url: https://github.com/rs/curlie/releases/download/v[VER]/
+filename_format: curlie_[VER]_[OS]_[ARCH].[EXT]
+latest_strategy: github-release # uses most recent github release tag to get the latest version number
+version_format: v[VER]
+
+extract_has_root: false
+
+os_map:
+  linux:
+    name: linux
+    ext: tar.gz
+    bin_path: curlie
+  macos: 
+    name: darwin
+    ext: tar.gz
+    bin_path: curlie
+  win:
+    name: windows
+    ext: tar.gz
+    bin_path: bin
+arch_map:
+  amd64: amd64
+  arm64: arm64
