@@ -9,6 +9,7 @@ filename_format: zig-[OS]-[ARCH]-[VER].[EXT]
 latest_strategy: github-release # uses most recent github release tag to get the latest version number
 
 extract_has_root: true
+allow_prerelease: true
 
 os_map:
   linux:
