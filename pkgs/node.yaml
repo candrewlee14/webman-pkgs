@@ -1,3 +1,9 @@
+title: node
+tagline: Node.js JavaScript runtime
+about: |
+  Node.js is an open-source, cross-platform, JavaScript runtime environment.
+  For information on using Node.js, see the Node.js website.
+
 info_url: https://nodejs.org/
 releases_url: https://nodejs.org/en/download/
 base_download_url: https://nodejs.org/dist/v[VER]/

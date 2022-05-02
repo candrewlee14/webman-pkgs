@@ -1,3 +1,8 @@
+title: bat
+tagline: A cat(1) clone with wings.
+about: |
+  A cat clone with syntax highlighting and Git integration.
+
 info_url: https://github.com/sharkdp/bat/
 releases_url: https://github.com/sharkdp/bat/releases/
 git_user: sharkdp

@@ -1,3 +1,12 @@
+title: neovim
+tagline: Vim-fork focused on extensibility and usability
+about: |
+  Neovim is a project that seeks to aggressively refactor Vim in order to --
+  ~ Simplify maintenance and encourage contributions
+  ~ Split the work between multiple developers
+  ~ Enable advanced UIs without modifications to the core
+  ~ Maximize extensibility
+
 info_url: https://neovim.io/
 releases_url: https://github.com/neovim/neovim/releases/
 git_user: neovim

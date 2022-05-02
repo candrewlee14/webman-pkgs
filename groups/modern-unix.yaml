@@ -1,0 +1,29 @@
+pkgs:
+  - bat
+  # - exa
+  - lsd
+  # - delta
+  # - dust
+  # - duf
+  # - broot
+  # - fd
+  - rg
+  # - ag
+  # - fzf
+  # - mcfly
+  # - choose
+  # - jq
+  # - sd
+  # - cheat
+  # - tldr
+  # - bottom
+  # - glances
+  # - gtop
+  - hyperfine
+  # - gping
+  # - procs
+  # - httpie
+  - curlie
+  # - xh
+  # - zoxide
+  # - dog
