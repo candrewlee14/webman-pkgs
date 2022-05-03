@@ -9,9 +9,9 @@ git_user: sharkdp
 git_repo: bat
 source_url:  https://github.com/sharkdp/bat/
 
-base_download_url: https://github.com/sharkdp/bat/releases/download/[VER]/
-filename_format: bat-[VER]-[ARCH]-[OS].[EXT]
-version_format: semantic
+base_download_url: https://github.com/sharkdp/bat/releases/download/v[VER]/
+filename_format: bat-v[VER]-[ARCH]-[OS].[EXT]
+version_format: v[VER]
 latest_strategy: github-release # uses most recent github release tag to get the latest version number
 
 extract_has_root: true
