@@ -11,6 +11,7 @@ source_url:  https://github.com/sharkdp/bat/
 
 base_download_url: https://github.com/sharkdp/bat/releases/download/[VER]/
 filename_format: bat-[VER]-[ARCH]-[OS].[EXT]
+version_format: semantic
 latest_strategy: github-release # uses most recent github release tag to get the latest version number
 
 extract_has_root: true
@@ -31,3 +32,9 @@ os_map:
 arch_map:
   amd64: x86_64
   arm64: aarch64
+
+ignore:
+- os: macos
+  arch: arm64
+- os: win
+  arch: arm64

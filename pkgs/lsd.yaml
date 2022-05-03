@@ -32,3 +32,9 @@ os_map:
 arch_map:
   amd64: x86_64
   arm64: aarch64
+
+ignore:
+- os: macos
+  arch: arm64
+- os: win
+  arch: arm64

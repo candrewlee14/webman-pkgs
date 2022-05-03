@@ -26,10 +26,7 @@ os_map:
     name: apple-darwin
     ext: tar.gz
     bin_path: zellij
-  # win: Unsupported
-  #   name: win64
-  #   ext: zip
-  #   bin_path: bin
+# win: Unsupported
 arch_map:
   amd64: x86_64
   arm64: aarch64

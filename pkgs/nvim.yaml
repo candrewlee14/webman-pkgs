@@ -33,5 +33,5 @@ os_map:
     ext: zip
     bin_path: bin
 arch_map:
-  amd64: x86_64
-# arm64: unsupported
+  amd64: unused
+# arm64: Unsupported
