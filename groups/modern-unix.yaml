@@ -13,7 +13,7 @@ packages:
   - mcfly
   - choose
   - jq
-  # - sd
+  - sd
   # - cheat
   # - tldr
   # - bottom

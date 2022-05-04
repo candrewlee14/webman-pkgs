@@ -1,0 +1,36 @@
+title: sd
+tagline: Intuitive find & replace CLI (sed alternative)
+about: |
+  sd is an intuitive find & replace CLI.
+  Painless regular expressions
+  sd uses regex syntax that you already know from JavaScript and Python. Forget about dealing with quirks of sed or awk - get productive immediately.
+  String-literal mode
+  Non-regex find & replace. No more backslashes or remembering which characters are special and need to be escaped.
+  Easy to read, easy to write
+  Find & replace expressions are split up, which makes them easy to read and write. No more messing with unclosed and escaped slashes.
+  Smart, common-sense defaults
+  Defaults follow common sense and are tailored for typical daily use.
+
+git_user: chmln
+git_repo: sd
+info_url: https://github.com/[GIT_USER]/[GIT_REPO]
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[VER]/
+filename_format: sd-v[VER]-[ARCH]-[OS]
+version_format: v[VER]
+latest_strategy: github-release # uses most recent github release tag to get the latest version number
+
+is_binary: true
+
+os_map:
+  linux:
+    name: unknown-linux-musl
+  macos: 
+    name: apple-darwin
+  # win: Unsupported
+  #   name: win64
+arch_map:
+  amd64: x86_64
+  # arm64: Unsupported
