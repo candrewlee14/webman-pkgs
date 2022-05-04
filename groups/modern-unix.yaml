@@ -2,7 +2,7 @@ packages:
   - bat
   - exa
   - lsd
-  # - delta
+  - delta
   # - dust
   # - duf
   # - broot
