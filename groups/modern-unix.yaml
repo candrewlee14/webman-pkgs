@@ -1,6 +1,6 @@
 packages:
   - bat
-  # - exa
+  - exa
   - lsd
   # - delta
   # - dust
