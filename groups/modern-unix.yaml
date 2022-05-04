@@ -11,7 +11,7 @@ packages:
   # - ag # Unclear how to get os-arch-specific downloads
   - fzf
   - mcfly
-  # - choose
+  - choose
   # - jq
   # - sd
   # - cheat
