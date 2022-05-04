@@ -6,13 +6,13 @@ about: |
   It knows about symlinks, extended attributes, and Git. 
   And it’s small, fast, and just one single binary.
 
-info_url: https://the.exa.website/
-releases_url: https://github.com/ogham/exa/releases/
 git_user: ogham
 git_repo: exa
-source_url: https://github.com/ogham/exa/
+info_url: https://the.exa.website/
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
 
-base_download_url: https://github.com/ogham/exa/releases/download/v[VER]/
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[VER]/
 version_format: v[VER]
 filename_format: exa-[OS]-[ARCH]-v[VER].[EXT]
 latest_strategy: github-release # uses most recent github release tag to get the latest version number

@@ -4,11 +4,11 @@ about: |
   Node.js is an open-source, cross-platform, JavaScript runtime environment.
   For information on using Node.js, see the Node.js website.
 
+git_user: nodejs
+git_repo: node
 info_url: https://nodejs.org/
 releases_url: https://nodejs.org/en/download/
 base_download_url: https://nodejs.org/dist/v[VER]/
-git_user: nodejs
-git_repo: node
 source_url: https://github.com/nodejs/node
 
 filename_format: node-v[VER]-[OS]-[ARCH].[EXT]

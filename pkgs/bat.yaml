@@ -3,13 +3,13 @@ tagline: A cat(1) clone with wings.
 about: |
   A cat clone with syntax highlighting and Git integration.
 
-info_url: https://github.com/sharkdp/bat/
-releases_url: https://github.com/sharkdp/bat/releases/
 git_user: sharkdp
 git_repo: bat
-source_url:  https://github.com/sharkdp/bat/
+info_url: https://github.com/[GIT_USER]/[GIT_REPO]
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
 
-base_download_url: https://github.com/sharkdp/bat/releases/download/v[VER]/
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[VER]/
 filename_format: bat-v[VER]-[ARCH]-[OS].[EXT]
 version_format: v[VER]
 latest_strategy: github-release # uses most recent github release tag to get the latest version number

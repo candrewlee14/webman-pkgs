@@ -6,13 +6,13 @@ about: |
   Delta aims to make this both efficient and enjoyable: 
   it allows you to make extensive changes to the layout and styling of diffs, as well as allowing you to stay arbitrarily close to the default git/diff output.
 
-info_url: https://github.com/dandavison/delta
-releases_url: https://github.com/dandavison/delta/releases/
 git_user: dandavison
 git_repo: delta
-source_url: https://github.com/dandavison/delta/
+info_url: https://github.com/[GIT_USER]/[GIT_REPO]
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
 
-base_download_url: https://github.com/dandavison/delta/releases/download/[VER]/
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/[VER]/
 filename_format: delta-[VER]-[ARCH]-[OS].[EXT]
 latest_strategy: github-release # uses most recent github release tag to get the latest version number
 

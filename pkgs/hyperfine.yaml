@@ -12,13 +12,13 @@ about: |
   ~ Parameterized benchmarks (e.g. vary the number of threads).
   ~ Cross-platform
 
-info_url: https://github.com/sharkdp/hyperfine
-releases_url: https://github.com/sharkdp/hyperfine/releases/
 git_user: sharkdp
 git_repo: hyperfine
-source_url: https://github.com/sharkdp/hyperfine
+info_url: https://github.com/[GIT_USER]/[GIT_REPO]
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
 
-base_download_url: https://github.com/sharkdp/hyperfine/releases/download/v[VER]/
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[VER]/
 filename_format: hyperfine-v[VER]-[ARCH]-[OS].[EXT]
 latest_strategy: github-release # uses most recent github release tag to get the latest version number
 version_format: v[VER]
