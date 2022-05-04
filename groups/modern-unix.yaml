@@ -5,8 +5,8 @@ packages:
   - delta
   - dust
   - duf
-  # - broot
-  # - fd
+  # - broot 
+  - fd
   - rg
   # - ag
   # - fzf
