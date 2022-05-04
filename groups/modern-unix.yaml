@@ -3,7 +3,7 @@ packages:
   - exa
   - lsd
   - delta
-  # - dust
+  - dust
   # - duf
   # - broot
   # - fd
