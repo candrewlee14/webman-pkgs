@@ -10,7 +10,7 @@ packages:
   - rg
   # - ag # Unclear how to get os-arch-specific downloads
   - fzf
-  # - mcfly
+  - mcfly
   # - choose
   # - jq
   # - sd
