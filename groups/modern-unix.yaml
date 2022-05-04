@@ -4,7 +4,7 @@ packages:
   - lsd
   - delta
   - dust
-  # - duf
+  - duf
   # - broot
   # - fd
   - rg
