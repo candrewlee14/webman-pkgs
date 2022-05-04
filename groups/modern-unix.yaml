@@ -12,7 +12,7 @@ packages:
   - fzf
   - mcfly
   - choose
-  # - jq
+  - jq
   # - sd
   # - cheat
   # - tldr
