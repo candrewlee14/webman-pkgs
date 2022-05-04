@@ -5,11 +5,11 @@ packages:
   - delta
   - dust
   - duf
-  # - broot 
+  # - broot # Uses a single nested zip package bundle
   - fd
   - rg
-  # - ag
-  # - fzf
+  # - ag # Unclear how to get os-arch-specific downloads
+  - fzf
   # - mcfly
   # - choose
   # - jq

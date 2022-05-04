@@ -1,0 +1,40 @@
+title: fzf
+tagline: A command-line fuzzy finder
+about: |
+  fzf is a general-purpose command-line fuzzy finder.
+  It's an interactive Unix filter for command-line that can be used with any list; files, command history, processes, hostnames, bookmarks, git commits, etc.
+  ~ Portable, no dependencies
+  ~ Blazingly fast
+  ~ The most comprehensive feature set
+  ~ Flexible layout
+  ~ Batteries included
+  ~ Vim/Neovim plugin, key bindings, and fuzzy auto-completion
+
+git_user: junegunn
+git_repo: fzf
+info_url: https://github.com/[GIT_USER]/[GIT_REPO]
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/[VER]/
+filename_format: fzf-[VER]-[OS]_[ARCH].[EXT]
+latest_strategy: github-release # uses most recent github release tag to get the latest version number
+
+extract_has_root: false
+
+os_map:
+  linux:
+    name: linux
+    ext: tar.gz
+    bin_path: fzf
+  macos: 
+    name: darwin
+    ext: tar.gz
+    bin_path: fzf
+  win: 
+    name: windows
+    ext: zip
+    bin_path: fzf
+arch_map:
+  amd64: amd64
+  arm64: arm64
