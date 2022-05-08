@@ -14,7 +14,7 @@ packages:
   - choose
   - jq
   - sd
-  # - cheat
+  - cheat
   # - tldr
   # - bottom
   # - glances

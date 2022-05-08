@@ -1,0 +1,35 @@
+title: cheat
+tagline: Create and view interactive cheatsheets on the command-line.
+about: |
+  cheat allows you to create and view interactive cheatsheets on the command-line. 
+  It was designed to help remind *nix system administrators of options for commands that they use frequently, but not frequently enough to remember.
+
+git_user: cheat
+git_repo: cheat
+info_url: https://github.com/[GIT_USER]/[GIT_REPO]
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/[VER]/
+filename_format: cheat-[OS]-[ARCH].[EXT]
+latest_strategy: github-release # uses most recent github release tag to get the latest version number
+
+os_map:
+  linux:
+    name: linux
+    ext: gz
+  macos: 
+    name: darwin
+    ext: gz
+  win: 
+    name: windows
+    ext: zip
+arch_map:
+  amd64: amd64
+  arm64: arm64
+
+ignore:
+- os: macos
+  arch: arm64
+- os: win
+  arch: arm64
