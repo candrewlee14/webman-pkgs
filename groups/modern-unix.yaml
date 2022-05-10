@@ -24,6 +24,6 @@ packages:
   - procs
   # - httpie
   - curlie
-  # - xh
+  - xh
   # - zoxide
   # - dog
