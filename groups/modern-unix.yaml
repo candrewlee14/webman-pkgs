@@ -16,7 +16,7 @@ packages:
   - sd
   - cheat
   # - tldr
-  # - bottom
+  - bottom
   # - glances
   # - gtop
   - hyperfine
