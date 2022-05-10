@@ -20,7 +20,7 @@ packages:
   # - glances
   # - gtop
   - hyperfine
-  # - gping
+  - gping
   # - procs
   # - httpie
   - curlie
