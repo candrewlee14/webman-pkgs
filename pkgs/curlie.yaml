@@ -30,7 +30,7 @@ os_map:
   win:
     name: windows
     ext: tar.gz
-    bin_path: bin
+    bin_path: curlie
 arch_map:
   amd64: amd64
   arm64: arm64
