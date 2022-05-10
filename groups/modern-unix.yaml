@@ -5,7 +5,7 @@ packages:
   - delta
   - dust
   - duf
-  - broot # Uses a single nested zip package bundle
+  - broot
   - fd
   - rg
   # - ag # Unclear how to get os-arch-specific downloads
@@ -25,5 +25,5 @@ packages:
   # - httpie
   - curlie
   - xh
-  # - zoxide
+  - zoxide
   # - dog
