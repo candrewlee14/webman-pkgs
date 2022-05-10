@@ -5,7 +5,7 @@ packages:
   - delta
   - dust
   - duf
-  # - broot # Uses a single nested zip package bundle
+  - broot # Uses a single nested zip package bundle
   - fd
   - rg
   # - ag # Unclear how to get os-arch-specific downloads
