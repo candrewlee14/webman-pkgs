@@ -7,13 +7,14 @@ about: |
   ~ Enable advanced UIs without modifications to the core
   ~ Maximize extensibility
 
-info_url: https://neovim.io/
-releases_url: https://github.com/neovim/neovim/releases/
 git_user: neovim
 git_repo: neovim
-source_url: https://github.com/neovim/neovim
+info_url: https://neovim.io/
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
 
-base_download_url: https://github.com/neovim/neovim/releases/download/[VER]/
+version_format: v[VER]
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[VER]/
 filename_format: nvim-[OS].[EXT]
 latest_strategy: github-release # uses most recent github release tag to get the latest version number
 

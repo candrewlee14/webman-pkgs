@@ -5,13 +5,14 @@ about: |
   Curlie is a frontend to curl that adds the ease of use of httpie, without compromising on features and performance. 
   All curl options are exposed with syntax sugar and output formatting inspired from httpie.
 
-info_url: https://curlie.io/
-releases_url: https://github.com/rs/curlie/releases/
 git_user: rs
 git_repo: curlie
-source_url: https://github.com/rs/curlie
+info_url: https://curlie.io/
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
 
-base_download_url: https://github.com/rs/curlie/releases/download/v[VER]/
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[VER]/
+
 filename_format: curlie_[VER]_[OS]_[ARCH].[EXT]
 latest_strategy: github-release # uses most recent github release tag to get the latest version number
 version_format: v[VER]

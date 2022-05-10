@@ -1,16 +1,16 @@
-title: bat
-tagline: A cat(1) clone with wings.
+title: xh
+tagline: Friendly and fast tool for sending HTTP requests
 about: |
-  A cat clone with syntax highlighting and Git integration.
-
-git_user: sharkdp
-git_repo: bat
+  xh is a friendly and fast tool for sending HTTP requests. 
+  It reimplements as much as possible of HTTPie's excellent design, with a focus on improved performance.
+git_user: ducaale
+git_repo: xh
 info_url: https://github.com/[GIT_USER]/[GIT_REPO]
 releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
 source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
 
 base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[VER]/
-filename_format: bat-v[VER]-[ARCH]-[OS].[EXT]
+filename_format: xh-v[VER]-[ARCH]-[OS].[EXT]
 version_format: v[VER]
 latest_strategy: github-release # uses most recent github release tag to get the latest version number
 
@@ -18,17 +18,17 @@ extract_has_root: true
 
 os_map:
   linux:
-    name: unknown-linux-gnu
+    name: unknown-linux-musl
     ext: tar.gz
-    bin_path: bat
+    bin_path: xh
   macos: 
     name: apple-darwin
     ext: tar.gz
-    bin_path: bat
+    bin_path: xh
   win: 
-    name: pc-windows-gnu
+    name: pc-windows-msvc
     ext: zip
-    bin_path: bat
+    bin_path: xh
 arch_map:
   amd64: x86_64
   arm64: aarch64

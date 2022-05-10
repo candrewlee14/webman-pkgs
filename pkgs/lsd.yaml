@@ -4,13 +4,14 @@ about: |
   This project is a rewrite of GNU ls with lot of added features like colors, icons, tree-view, more formatting options etc. 
   The project is heavily inspired by the super colorls project.
 
-info_url: https://github.com/Peltoche/lsd
-releases_url: https://github.com/Peltoche/lsd/releases
 git_user: Peltoche
 git_repo: lsd
-source_url: https://github.com/Peltoche/lsd
 
-base_download_url: https://github.com/Peltoche/lsd/releases/download/[VER]/
+info_url: https://github.com/[GIT_USER]/[GIT_REPO]
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/[VER]/
 filename_format: lsd-[VER]-[ARCH]-[OS].[EXT]
 latest_strategy: github-release # uses most recent github release tag to get the latest version number
 

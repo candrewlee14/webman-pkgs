@@ -6,13 +6,13 @@ about: |
   ripgrep has first class support on Windows, macOS and Linux, with binary downloads available for every release. 
   ripgrep is similar to other popular search tools like The Silver Searcher, ack and grep.
 
-info_url: https://blog.burntsushi.net/ripgrep/
-releases_url: https://github.com/BurntSushi/ripgrep/releases/
 git_user: BurntSushi
 git_repo: ripgrep
-source_url: https://github.com/BurntSushi/ripgrep
+info_url: https://blog.burntsushi.net/ripgrep/
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
 
-base_download_url: https://github.com/BurntSushi/ripgrep/releases/download/[VER]/
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/[VER]/
 filename_format: ripgrep-[VER]-[ARCH]-[OS].[EXT]
 latest_strategy: github-release # uses most recent github release tag to get the latest version number
 

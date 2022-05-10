@@ -3,11 +3,11 @@ tagline: The Go programming language
 about: |
   Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
 
+git_user: golang
+git_repo: go
 info_url: https://go.dev/
 releases_url: https://go.dev/dl/
 base_download_url: https://go.dev/dl/
-git_user: golang
-git_repo: go
 source_url: https://github.com/golang/go
 
 # this is the format of downloads appended to base_download_url.

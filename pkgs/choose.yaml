@@ -1,0 +1,38 @@
+title: choose
+tagline: A human-friendly and fast alternative to cut and (sometimes) awk
+about: |
+  This is choose, a human-friendly and fast alternative to cut and (sometimes) awk
+  ~ terse field selection syntax similar to Python's list slices
+  ~ negative indexing from end of line
+  ~ optional start/end index
+  ~ zero-indexed
+  ~ reverse ranges
+  ~ slightly faster than cut for sufficiently long inputs, much faster than awk
+  ~ regular expression field separators using Rust's regex syntax
+git_user: theryangeary
+git_repo: choose
+info_url: https://github.com/[GIT_USER]/[GIT_REPO]
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[VER]/
+filename_format: choose-[ARCH]-[OS]
+version_format: v[VER]
+latest_strategy: github-release # uses most recent github release tag to get the latest version number
+
+is_binary: true 
+
+os_map:
+  linux:
+    name: unknown-linux-musl
+  # macos: Unsupported
+  #   name: apple-darwin
+  #   ext: tar.gz
+  #   bin_path: bat
+  # win: Unsupported
+  #   name: pc-windows-gnu
+  #   ext: zip
+  #   bin_path: bat
+arch_map:
+  amd64: x86_64
+  # arm64: Unsupported

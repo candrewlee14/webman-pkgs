@@ -1,0 +1,38 @@
+title: gping
+tagline: Ping, but with a graph
+about: |
+  Ping, but with a graph
+  Comes with the following super-powers:
+  ~ Graph the ping time for multiple hosts
+  ~ Graph the execution time for commands via the --cmd flag
+  ~ Custom colours
+  ~ Windows, Mac and Linux support
+git_user: orf
+git_repo: gping
+info_url: https://github.com/[GIT_USER]/[GIT_REPO]
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/gping-v[VER]/
+filename_format: gping-[OS]-[ARCH].[EXT]
+version_format: gping-v[VER]
+latest_strategy: github-release # uses most recent github release tag to get the latest version number
+
+extract_has_root: false
+
+os_map:
+  linux:
+    name: Linux
+    ext: tar.gz
+    bin_path: gping
+  macos: 
+    name: Darwin
+    ext: tar.gz
+    bin_path: gping
+  win: 
+    name: Windows
+    ext: zip
+    bin_path: gping
+arch_map:
+  amd64: x86_64
+  # arm64: Unsupported (sort of, it's in a totally different filename_format and only on linux)

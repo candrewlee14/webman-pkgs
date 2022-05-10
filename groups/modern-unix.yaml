@@ -1,29 +1,29 @@
 packages:
   - bat
-  # - exa
+  - exa
   - lsd
-  # - delta
-  # - dust
-  # - duf
-  # - broot
-  # - fd
+  - delta
+  - dust
+  - duf
+  - broot
+  - fd
   - rg
-  # - ag
-  # - fzf
-  # - mcfly
-  # - choose
-  # - jq
-  # - sd
-  # - cheat
+  # - ag # Unclear how to get os-arch-specific downloads
+  - fzf
+  - mcfly
+  - choose
+  - jq
+  - sd
+  - cheat
   # - tldr
-  # - bottom
+  - bottom
   # - glances
   # - gtop
   - hyperfine
-  # - gping
-  # - procs
+  - gping
+  - procs
   # - httpie
   - curlie
-  # - xh
-  # - zoxide
-  # - dog
+  - xh
+  - zoxide
+  - dog
