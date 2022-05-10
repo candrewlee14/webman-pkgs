@@ -29,7 +29,7 @@ os_map:
     bin_path: fzf
   macos: 
     name: darwin
-    ext: tar.gz
+    ext: zip
     bin_path: fzf
   win: 
     name: windows
