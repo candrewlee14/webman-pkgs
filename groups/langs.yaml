@@ -1,0 +1,4 @@
+packages:
+  - go
+  - zig
+  - rust
