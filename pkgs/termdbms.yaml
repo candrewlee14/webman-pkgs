@@ -1,0 +1,44 @@
+title: termdbms
+tagline: Golang-based terminal UI client for SQLite DBs and CSV files
+about: |
+  A TUI for viewing and editing databases, written in pure Go, that supports SQLite and CSV files.
+  Features
+  - Run SQL queries and display the results.
+  - Save SQL queries to a clipboard.
+  - Update, delete, or insert with SQL, with undo/redo supported for SQLite.
+  - Automatic JSON formatting in selection/format mode.
+  - Edit multi-line text with Vim-like controls.
+  - Undo/Redo of changes (SQLite only).
+  - Output query results as a CSV file.
+  - Convert CSV file to SQLite database.
+
+git_user: mathaou
+git_repo: termdbms
+info_url: https://github.com/[GIT_USER]/[GIT_REPO]
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[VER]/
+filename_format: termdbms_[OS]_[ARCH]
+version_format: v[VER]
+latest_strategy: github-release # uses most recent github release tag to get the latest version number
+
+is_binary: false
+
+os_map:
+  linux:
+    name: linux
+    ext: zip
+    bin_path: build/termdbms_linux_x64
+  macos:
+    name: osx
+    ext: zip
+    bin_path: build/termdbms_osx_x64
+  win:
+    name: windows
+    ext: zip
+    bin_path: build/termdbms_windows_x64
+arch_map:
+  amd64: x64
+  # i386: x86
+  # arm64: Unsupported
