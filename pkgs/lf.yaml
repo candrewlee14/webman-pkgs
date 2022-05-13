@@ -1,0 +1,45 @@
+title: lf
+tagline: Go-based terminal file manager inspired by ranger.
+about: |
+  Go-based terminal file manager inspired by ranger.
+
+git_user: gokcehan
+git_repo: lf
+info_url: https://github.com/[GIT_USER]/[GIT_REPO]
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/[VER]/
+filename_format: lf-[OS]-[ARCH]
+version_format:
+latest_strategy: github-release # uses most recent github release tag to get the latest version number
+
+is_binary: false
+
+os_map:
+  linux:
+    name: linux
+    ext: tar.gz
+  macos: 
+    name: darwin
+    ext: tar.gz
+  win:
+    name: windows
+    ext: zip
+arch_map:
+  amd64: amd64
+  i386: 386
+  arm: arm
+  arm64: arm64
+  
+ignore:
+- os: windows
+  arch: arm64
+- os: macos
+  arch: arm64
+- os: windows
+  arch: arm
+- os: macos
+  arch: arm
+- os: macos
+  arch: i386
