@@ -33,13 +33,11 @@ arch_map:
   arm64: arm64
   
 ignore:
-- os: windows
+- os: win
   arch: arm64
 - os: macos
   arch: arm64
-- os: windows
-  arch: arm
 - os: macos
-  arch: arm
+  arch: arm64
 - os: macos
   arch: i386
