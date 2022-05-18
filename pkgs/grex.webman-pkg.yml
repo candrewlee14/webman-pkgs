@@ -1,0 +1,35 @@
+tagline: A command-line tool and library for generating regular expressions from user-provided test cases.
+about: |
+  grex is a library as well as a command-line utility that is meant to 
+  simplify the often complicated and tedious task of creating regular 
+  expressions. It does so by automatically generating a single regular 
+  expression from user-provided test cases. The resulting expression 
+  is guaranteed to match the test cases which it was generated from. 
+  It generate the most specific regular expression possible by default 
+  which exactly matches the given input only and nothing else.
+
+git_user: pemistahl
+git_repo: grex
+info_url: https://github.com/[GIT_USER]/[GIT_REPO]
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[VER]/
+filename_format: grex-v[VER]-[ARCH]-[OS]
+version_format: v[VER]
+latest_strategy: github-release # uses most recent github release tag to get the latest version number
+
+is_binary: false
+
+os_map:
+  linux:
+    name: unknown-linux-musl
+    ext: tar.gz
+  macos: 
+    name: apple-darwin
+    ext: tar.gz
+  win:
+    name: pc-windows-msvc
+    ext: zip
+arch_map:
+  amd64: x86_64

@@ -1,0 +1,33 @@
+tagline: A modern replacement for ls.
+about: |
+  exa is an improved file lister with more features and better defaults. 
+  It uses colours to distinguish file types and metadata. 
+  It knows about symlinks, extended attributes, and Git. 
+  And it’s small, fast, and just one single binary.
+
+git_user: ogham
+git_repo: exa
+info_url: https://the.exa.website/
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[VER]/
+version_format: v[VER]
+filename_format: exa-[OS]-[ARCH]-v[VER].[EXT]
+latest_strategy: github-release # uses most recent github release tag to get the latest version number
+
+extract_has_root: false
+
+os_map:
+  linux:
+    name: linux
+    ext: zip
+    bin_path: bin
+  macos: 
+    name: macos
+    ext: zip
+    bin_path: bin
+  # win: Unsupported
+arch_map:
+  amd64: x86_64
+  # arm64: Unsupported

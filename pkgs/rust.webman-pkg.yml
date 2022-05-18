@@ -1,0 +1,54 @@
+tagline: The Rust programming language
+about: |
+  Rust is a language empowering everyone to build reliable and efficient software.
+git_user: rust-lang
+git_repo: rust
+info_url: https://www.rust-lang.org
+base_download_url: https://static.rust-lang.org/dist/
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+# this is the format of downloads appended to base_download_url.
+filename_format: rust-[VER]-[ARCH]-[OS].[EXT]
+latest_strategy: github-release # uses most recent github release tag to get the latest version number
+extract_has_root: true
+
+os_map:
+  linux:
+    name: unknown-linux-musl
+    ext: tar.gz
+    # This is either a folder with binaries, or a single binary file.
+    # If extract has root folder, this path is relative to the root folder after extracting , 
+    # otherwise the path is relative the folder holding the extracted files.
+    # Ex: go1.18.1.windows-amd64.zip extracts to a single folder called go/, which is ROOT here
+    # Ex: go/bin has the executables
+    bin_path:
+      - cargo/bin
+      - rls-preview/bin
+      - clippy-preview/bin
+      - rustc/bin
+      - rustfmt-preview/bin
+      - rust-demangler-preview/bin
+  macos: 
+    name: apple-darwin
+    ext: tar.gz
+    bin_path:
+      - cargo/bin
+      - rls-preview/bin
+      - clippy-preview/bin
+      - rustc/bin
+      - rustfmt-preview/bin
+      - rust-demangler-preview/bin
+  win: 
+    name: pc-windows-gnu
+    ext: tar.gz
+    bin_path:
+      - cargo/bin
+      - rls-preview/bin
+      - clippy-preview/bin
+      - rustc/bin
+      - rustfmt-preview/bin
+      - rust-demangler-preview/bin
+arch_map:
+  amd64: x86_64
+  arm64: aarch64

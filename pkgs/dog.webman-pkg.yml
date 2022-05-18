@@ -1,0 +1,34 @@
+tagline: A user-friendly command-line DNS client. dig on steroids
+about: |
+  dog is a command-line DNS client, like dig. 
+  It has colourful output, understands normal command-line argument syntax, supports the DNS-over-TLS and DNS-over-HTTPS protocols, and can emit JSON.
+
+git_user: ogham
+git_repo: dog
+info_url: https://github.com/[GIT_USER]/[GIT_REPO]
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[VER]/
+filename_format: dog-v[VER]-[ARCH]-[OS].[EXT]
+version_format: v[VER]
+latest_strategy: github-release # uses most recent github release tag to get the latest version number
+
+extract_has_root: false
+
+os_map:
+  linux:
+    name: unknown-linux-gnu
+    ext: zip
+    bin_path: bin
+  macos: 
+    name: apple-darwin
+    ext: zip
+    bin_path: bin
+  win: 
+    name: pc-windows-msvc
+    ext: zip
+    bin_path: bin
+arch_map:
+  amd64: x86_64
+  # arm64: Unsupported

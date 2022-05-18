@@ -1,0 +1,32 @@
+tagline: A terminal workspace with batteries included
+about: |
+  Zellij is a workspace aimed at developers, ops-oriented people and anyone who loves the terminal. 
+  At its core, it is a terminal multiplexer (similar to tmux and screen), but this is merely its infrastructure layer.
+  Zellij includes a layout system, and a plugin system allowing one to create plugins in any language that compiles to WebAssembly.
+
+git_user: zellij-org
+git_repo: zellij
+info_url: https://zellij.dev/
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+version_format: v[VER]
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[VER]/
+filename_format: zellij-[ARCH]-[OS].[EXT]
+latest_strategy: github-release # uses most recent github release tag to get the latest version number
+
+extract_has_root: false
+
+os_map:
+  linux:
+    name: unknown-linux-musl
+    ext: tar.gz
+    bin_path: zellij
+  macos: 
+    name: apple-darwin
+    ext: tar.gz
+    bin_path: zellij
+# win: Unsupported
+arch_map:
+  amd64: x86_64
+  arm64: aarch64
