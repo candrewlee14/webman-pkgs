@@ -22,11 +22,11 @@ os_map:
     name: unknown-linux-musl
     ext: tar.gz
     bin_path: zoxide
-  macos: 
+  macos:
     name: apple-darwin
     ext: tar.gz
     bin_path: zoxide
-  win: 
+  win:
     name: pc-windows-msvc
     ext: zip
     bin_path: zoxide

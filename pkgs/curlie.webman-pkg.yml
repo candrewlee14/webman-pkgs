@@ -23,7 +23,7 @@ os_map:
     name: linux
     ext: tar.gz
     bin_path: curlie
-  macos: 
+  macos:
     name: darwin
     ext: tar.gz
     bin_path: curlie

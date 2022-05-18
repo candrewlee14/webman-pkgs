@@ -21,11 +21,11 @@ os_map:
     name: unknown-linux-gnu
     ext: zip
     bin_path: bin
-  macos: 
+  macos:
     name: apple-darwin
     ext: zip
     bin_path: bin
-  win: 
+  win:
     name: pc-windows-msvc
     ext: zip
     bin_path: bin

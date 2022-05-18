@@ -31,11 +31,11 @@ os_map:
     name: linux
     ext: zip
     bin_path: procs
-  macos: 
+  macos:
     name: mac
     ext: zip
     bin_path: procs
-  win: 
+  win:
     name: windows
     ext: zip
     bin_path: target/x86_64-pc-windows-msvc/release

@@ -25,7 +25,7 @@ os_map:
   linux:
     name: unknown-linux-musl
     ext: tar.gz
-  macos: 
+  macos:
     name: apple-darwin
     ext: tar.gz
   win:

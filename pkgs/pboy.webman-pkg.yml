@@ -22,7 +22,7 @@ os_map:
   linux:
     name: linux
     ext: tar.gz
-  macos: 
+  macos:
     name: osx
     ext: tar.gz
   # win: Unsupported

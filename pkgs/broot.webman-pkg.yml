@@ -19,9 +19,9 @@ force_latest: true
 os_map:
   linux:
     name: unknown-linux-musl
-  # macos: Unsupported 
+  # macos: Unsupported
   #   name: apple-darwin
-  win: 
+  win:
     name: pc-windows-gnu
 arch_map:
   amd64: x86_64

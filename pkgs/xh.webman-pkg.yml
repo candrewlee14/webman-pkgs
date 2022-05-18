@@ -20,11 +20,11 @@ os_map:
     name: unknown-linux-musl
     ext: tar.gz
     bin_path: xh
-  macos: 
+  macos:
     name: apple-darwin
     ext: tar.gz
     bin_path: xh
-  win: 
+  win:
     name: pc-windows-msvc
     ext: zip
     bin_path: xh
@@ -33,7 +33,7 @@ arch_map:
   arm64: aarch64
 
 ignore:
-- os: macos
-  arch: arm64
-- os: win
-  arch: arm64
+  - os: macos
+    arch: arm64
+  - os: win
+    arch: arm64

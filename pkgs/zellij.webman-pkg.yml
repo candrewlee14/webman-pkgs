@@ -22,7 +22,7 @@ os_map:
     name: unknown-linux-musl
     ext: tar.gz
     bin_path: zellij
-  macos: 
+  macos:
     name: apple-darwin
     ext: tar.gz
     bin_path: zellij

@@ -17,22 +17,22 @@ os_map:
   linux:
     name: linux
     ext: gz
-  macos: 
+  macos:
     name: darwin
     ext: gz
-  win: 
+  win:
     name: windows
     ext: exe.zip
     bin_path: dist
     # TODO: This is awkward because the binary in this folder is called cheat-windows-amd64.exe
     # so the ~/.webman/bin installed link is cheat-windows-amd64 when it should probably be cheat.
-    # Maybe add regex matching to rename? 
+    # Maybe add regex matching to rename?
 arch_map:
   amd64: amd64
   arm64: arm64
 
 ignore:
-- os: macos
-  arch: arm64
-- os: win
-  arch: arm64
+  - os: macos
+    arch: arm64
+  - os: win
+    arch: arm64

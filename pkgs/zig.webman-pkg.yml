@@ -32,11 +32,11 @@ os_map:
     name: linux
     ext: tar.xz
     bin_path: zig
-  macos: 
+  macos:
     name: macos
     ext: tar.xz
     bin_path: zig
-  win: 
+  win:
     name: windows
     ext: zip
     bin_path: zig

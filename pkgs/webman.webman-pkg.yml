@@ -23,11 +23,11 @@ os_map:
     name: linux
     ext: tar.gz
     bin_path: webman
-  macos: 
+  macos:
     name: darwin
     ext: tar.gz
     bin_path: webman
-  win: 
+  win:
     name: windows
     ext: zip
     bin_path: webman

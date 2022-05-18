@@ -18,7 +18,7 @@ os_map:
     name: unknown-linux-musl
     ext: tar.gz
     # This is either a folder with binaries, or a single binary file.
-    # If extract has root folder, this path is relative to the root folder after extracting , 
+    # If extract has root folder, this path is relative to the root folder after extracting ,
     # otherwise the path is relative the folder holding the extracted files.
     # Ex: go1.18.1.windows-amd64.zip extracts to a single folder called go/, which is ROOT here
     # Ex: go/bin has the executables
@@ -29,7 +29,7 @@ os_map:
       - rustc/bin
       - rustfmt-preview/bin
       - rust-demangler-preview/bin
-  macos: 
+  macos:
     name: apple-darwin
     ext: tar.gz
     bin_path:
@@ -39,7 +39,7 @@ os_map:
       - rustc/bin
       - rustfmt-preview/bin
       - rust-demangler-preview/bin
-  win: 
+  win:
     name: pc-windows-gnu
     ext: tar.gz
     bin_path:

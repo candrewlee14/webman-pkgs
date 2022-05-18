@@ -23,7 +23,7 @@ os_map:
     name: linux
     ext: zip
     bin_path: bin
-  macos: 
+  macos:
     name: macos
     ext: zip
     bin_path: bin

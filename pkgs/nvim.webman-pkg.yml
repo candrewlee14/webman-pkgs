@@ -24,11 +24,11 @@ os_map:
     name: linux64
     ext: tar.gz
     bin_path: bin
-  macos: 
+  macos:
     name: macos
     ext: tar.gz
     bin_path: bin
-  win: 
+  win:
     name: win64
     ext: zip
     bin_path: bin

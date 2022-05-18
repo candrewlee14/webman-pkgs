@@ -19,7 +19,7 @@ filename_format: choose-[ARCH]-[OS]
 version_format: v[VER]
 latest_strategy: github-release # uses most recent github release tag to get the latest version number
 
-is_binary: true 
+is_binary: true
 
 os_map:
   linux:

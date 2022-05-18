@@ -25,11 +25,11 @@ os_map:
     name: linux
     ext: tar.gz
     bin_path: duf
-  macos: 
+  macos:
     name: Darwin
     ext: tar.gz
     bin_path: duf
-  win: 
+  win:
     name: Windows
     ext: zip
     bin_path: duf

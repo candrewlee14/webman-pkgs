@@ -24,11 +24,11 @@ os_map:
     name: Linux
     ext: tar.gz
     bin_path: gping
-  macos: 
+  macos:
     name: Darwin
     ext: tar.gz
     bin_path: gping
-  win: 
+  win:
     name: Windows
     ext: zip
     bin_path: gping

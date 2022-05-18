@@ -26,11 +26,11 @@ os_map:
     name: linux
     ext: tar.gz
     bin_path: fzf
-  macos: 
+  macos:
     name: darwin
     ext: zip
     bin_path: fzf
-  win: 
+  win:
     name: windows
     ext: zip
     bin_path: fzf

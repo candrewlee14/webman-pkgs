@@ -21,14 +21,14 @@ os_map:
   linux:
     name: linux
     ext: tar.xz
-  macos: 
+  macos:
     name: apple-darwin
     ext: tar.xz
   # win: Unsupported
 arch_map:
   amd64: x86_64
   arm64: aarch64
-  
+
 ignore:
-- os: linux
-  arch: arm64
+  - os: linux
+    arch: arm64

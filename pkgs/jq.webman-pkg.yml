@@ -23,16 +23,16 @@ is_binary: true
 os_map:
   linux:
     name: linux64
-  macos: 
+  macos:
     name: osx-amd64
-  win: 
+  win:
     name: win64
 arch_map:
   amd64: x86_64
   # arm64: Unsupported
 
 ignore:
-- os: macos
-  arch: arm64
-- os: win
-  arch: arm64
+  - os: macos
+    arch: arm64
+  - os: win
+    arch: arm64

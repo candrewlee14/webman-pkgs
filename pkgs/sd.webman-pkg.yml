@@ -26,7 +26,7 @@ is_binary: true
 os_map:
   linux:
     name: unknown-linux-musl
-  macos: 
+  macos:
     name: apple-darwin
   # win: Unsupported
   #   name: win64

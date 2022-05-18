@@ -17,15 +17,15 @@ arch_linux_pkg_name: nodejs
 extract_has_root: true
 
 os_map:
-  linux: 
+  linux:
     name: linux
     ext: tar.xz
     bin_path: bin/
-  macos: 
+  macos:
     name: darwin
     ext: tar.gz
     bin_path: bin/
-  win: 
+  win:
     name: win
     ext: zip
     bin_path: ""

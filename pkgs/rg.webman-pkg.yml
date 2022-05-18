@@ -22,14 +22,14 @@ os_map:
     name: unknown-linux-musl
     ext: tar.gz
     bin_path: rg
-  macos: 
+  macos:
     name: apple-darwin
     ext: tar.gz
     bin_path: rg
-  win: 
+  win:
     name: pc-windows-gnu
     ext: zip
     bin_path: rg
 arch_map:
   amd64: x86_64
-# arm64: Unsupported 
+# arm64: Unsupported
