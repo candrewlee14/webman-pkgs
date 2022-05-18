@@ -1,0 +1,36 @@
+tagline: Simple cross-platform package manager
+about: |
+  webman is a cross-platform package manager for the web!
+  Add, remove, and manage different versions of software. No elevated permissions required!
+  Package recipes are located at https://github.com/candrewlee14/webman-pkgs. Recipes are simple YAML files that make it easy to submit a new package. 
+  Webman locates version numbers online and installs packages from the web, so you'll always have the most up-to-date software available!
+  Windows, Linux, and MacOS are all supported.
+git_user: candrewlee14
+git_repo: webman
+info_url: https://github.com/[GIT_USER]/[GIT_REPO]
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/[VER]/
+filename_format: webman_[VER]_[OS]_[ARCH].[EXT]
+latest_strategy: github-release # uses most recent github release tag to get the latest version number
+
+extract_has_root: false
+allow_prerelease: true
+
+os_map:
+  linux:
+    name: linux
+    ext: tar.gz
+    bin_path: webman
+  macos: 
+    name: darwin
+    ext: tar.gz
+    bin_path: webman
+  win: 
+    name: windows
+    ext: zip
+    bin_path: webman
+arch_map:
+  amd64: x86_64
+  arm64: aarch64

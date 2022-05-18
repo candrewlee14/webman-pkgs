@@ -1,0 +1,35 @@
+tagline: A smarter cd command. Supports all major shells.
+about: |
+  zoxide is a smarter cd command, inspired by z and autojump.
+  It remembers which directories you use most frequently, so you can "jump" to them in just a few keystrokes.
+  zoxide works on all major shells.
+
+git_user: ajeetdsouza
+git_repo: zoxide
+info_url: https://github.com/[GIT_USER]/[GIT_REPO]
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[VER]/
+filename_format: zoxide-v[VER]-[ARCH]-[OS].[EXT]
+version_format: v[VER]
+latest_strategy: github-release # uses most recent github release tag to get the latest version number
+
+extract_has_root: false
+
+os_map:
+  linux:
+    name: unknown-linux-musl
+    ext: tar.gz
+    bin_path: zoxide
+  macos: 
+    name: apple-darwin
+    ext: tar.gz
+    bin_path: zoxide
+  win: 
+    name: pc-windows-msvc
+    ext: zip
+    bin_path: zoxide
+arch_map:
+  amd64: x86_64
+  arm64: aarch64

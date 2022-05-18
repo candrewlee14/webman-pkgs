@@ -1,0 +1,39 @@
+tagline: Friendly and fast tool for sending HTTP requests
+about: |
+  xh is a friendly and fast tool for sending HTTP requests. 
+  It reimplements as much as possible of HTTPie's excellent design, with a focus on improved performance.
+git_user: ducaale
+git_repo: xh
+info_url: https://github.com/[GIT_USER]/[GIT_REPO]
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[VER]/
+filename_format: xh-v[VER]-[ARCH]-[OS].[EXT]
+version_format: v[VER]
+latest_strategy: github-release # uses most recent github release tag to get the latest version number
+
+extract_has_root: true
+
+os_map:
+  linux:
+    name: unknown-linux-musl
+    ext: tar.gz
+    bin_path: xh
+  macos: 
+    name: apple-darwin
+    ext: tar.gz
+    bin_path: xh
+  win: 
+    name: pc-windows-msvc
+    ext: zip
+    bin_path: xh
+arch_map:
+  amd64: x86_64
+  arm64: aarch64
+
+ignore:
+- os: macos
+  arch: arm64
+- os: win
+  arch: arm64

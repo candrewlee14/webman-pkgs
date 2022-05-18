@@ -1,0 +1,37 @@
+tagline: Vim-fork focused on extensibility and usability
+about: |
+  Neovim is a project that seeks to aggressively refactor Vim in order to --
+  ~ Simplify maintenance and encourage contributions
+  ~ Split the work between multiple developers
+  ~ Enable advanced UIs without modifications to the core
+  ~ Maximize extensibility
+
+git_user: neovim
+git_repo: neovim
+info_url: https://neovim.io/
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+version_format: v[VER]
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[VER]/
+filename_format: nvim-[OS].[EXT]
+latest_strategy: github-release # uses most recent github release tag to get the latest version number
+
+extract_has_root: true
+
+os_map:
+  linux:
+    name: linux64
+    ext: tar.gz
+    bin_path: bin
+  macos: 
+    name: macos
+    ext: tar.gz
+    bin_path: bin
+  win: 
+    name: win64
+    ext: zip
+    bin_path: bin
+arch_map:
+  amd64: unused
+# arm64: Unsupported

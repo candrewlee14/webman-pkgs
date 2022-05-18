@@ -1,0 +1,28 @@
+tagline: A new way to see and navigate directory trees
+about: |
+  A new way to see and navigate directory trees.
+
+git_user: Canop
+git_repo: broot
+info_url: https://dystroy.org/broot/
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+base_download_url: https://dystroy.org/broot/download/[ARCH]-[OS]/
+filename_format: "broot"
+version_format: v[VER]
+latest_strategy: github-release # uses most recent github release tag to get the latest version number
+
+is_binary: true
+force_latest: true
+
+os_map:
+  linux:
+    name: unknown-linux-musl
+  # macos: Unsupported 
+  #   name: apple-darwin
+  win: 
+    name: pc-windows-gnu
+arch_map:
+  amd64: x86_64
+  # arm64: Unsupported

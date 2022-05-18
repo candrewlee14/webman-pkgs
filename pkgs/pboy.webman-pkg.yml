@@ -1,0 +1,30 @@
+tagline: Console-based PDF management utility.
+about: |
+  Paperboy (pboy) is lightweight PDF management tool for the command-line.
+  It helps to rename and move files to a specified folder, and it even 
+  gives some filename suggestions by looking at the content and the PDF
+  metadata.
+
+git_user: 2mol
+git_repo: pboy
+info_url: https://github.com/[GIT_USER]/[GIT_REPO]
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/[VER]/
+filename_format: pboy-[OS]
+version_format: "[VER]"
+latest_strategy: github-release # uses most recent github release tag to get the latest version number
+
+is_binary: false
+
+os_map:
+  linux:
+    name: linux
+    ext: tar.gz
+  macos: 
+    name: osx
+    ext: tar.gz
+  # win: Unsupported
+arch_map:
+  amd64: 
