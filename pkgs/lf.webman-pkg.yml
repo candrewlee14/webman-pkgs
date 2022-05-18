@@ -26,7 +26,7 @@ os_map:
     ext: zip
 arch_map:
   amd64: amd64
-  386: 386
+  "386": "386"
   arm: arm
   arm64: arm64
   
@@ -38,4 +38,4 @@ ignore:
 - os: macos
   arch: arm64
 - os: macos
-  arch: 386
+  arch: "386"

@@ -1,3 +1,4 @@
+title: termdbms
 tagline: Golang-based terminal UI client for SQLite DBs and CSV files
 about: |
   A TUI for viewing and editing databases, written in pure Go, that supports SQLite and CSV files.
