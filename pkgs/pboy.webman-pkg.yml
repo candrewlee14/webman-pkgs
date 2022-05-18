@@ -27,4 +27,4 @@ os_map:
     ext: tar.gz
   # win: Unsupported
 arch_map:
-  amd64: 
+  amd64: amd64

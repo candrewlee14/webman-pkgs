@@ -10,7 +10,6 @@ source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
 
 base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/[VER]/
 filename_format: lf-[OS]-[ARCH]
-version_format:
 latest_strategy: github-release # uses most recent github release tag to get the latest version number
 
 is_binary: false
@@ -27,7 +26,7 @@ os_map:
     ext: zip
 arch_map:
   amd64: amd64
-  i386: 386
+  386: 386
   arm: arm
   arm64: arm64
   
@@ -39,4 +38,4 @@ ignore:
 - os: macos
   arch: arm64
 - os: macos
-  arch: i386
+  arch: 386
