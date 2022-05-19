@@ -1,6 +1,8 @@
 name: Modified Package Recipes Installation Test
 
 on:
+  push:
+    branches: [main]
   pull_request:
     branches: [main]
 
