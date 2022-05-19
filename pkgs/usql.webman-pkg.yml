@@ -1,0 +1,30 @@
+tagline: Universal command-line interface for SQL databases
+about: |
+  usql is a universal command-line interface for PostgreSQL, MySQL, Oracle Database, SQLite3, Microsoft SQL Server, and many other databases including NoSQL and non-relational databases!
+
+git_user: xo
+git_repo: usql
+info_url: https://github.com/[GIT_USER]/[GIT_REPO]
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[VER]/
+filename_format: usql-[VER]-[OS]-[ARCH].[EXT]
+version_format: v[VER]
+latest_strategy: github-release
+
+os_map:
+  linux:
+    name: linux
+    ext: tar.bz2
+    bin_path: usql
+  macos:
+    name: darwin
+    ext: tar.bz2
+    bin_path: usql
+  win:
+    name: windows
+    ext: zip
+    bin_path: usql
+arch_map:
+  amd64: amd64
