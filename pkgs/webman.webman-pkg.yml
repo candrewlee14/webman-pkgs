@@ -11,8 +11,9 @@ info_url: https://github.com/[GIT_USER]/[GIT_REPO]
 releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
 source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
 
-base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/[VER]/
-filename_format: webman_[VER]_[OS]_[ARCH].[EXT]
+version_format: v[VER]
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[VER]/
+filename_format: webman_v[VER]_[OS]_[ARCH].[EXT]
 latest_strategy: github-release # uses most recent github release tag to get the latest version number
 
 extract_has_root: false

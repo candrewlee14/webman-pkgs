@@ -1,4 +1,4 @@
-name: "Schema Linter"
+name: Package Recipes Schema Lint
 
 on:
   push:
@@ -18,4 +18,4 @@ jobs:
         with:
           go-version: "1.18.2"
       - name: Run linter
-        run: go run github.com/candrewlee14/webman@latest dev check .
+        run: go run github.com/candrewlee14/webman@main dev check .
