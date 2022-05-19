@@ -1,0 +1,27 @@
+name: "bintest"
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  bintest:
+    name: 'bintest new/modified recipes'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Setup Go
+        uses: actions/setup-go@v3
+        with:
+          go-version: "1.18.2"
+      - id: files
+        name: Get changed files
+        uses: tj-actions/changed-files@v20
+        with:
+          files: "pkgs/*.webman-pkg.yml"
+      - name: Run bintest
+        run: |
+          for file in ${{ steps.files.outputs.all_modified_files }}; do
+            go run github.com/candrewlee14/webman@latest -l "." dev bintest $(echo $file | sed -E 's|pkgs\/([^.]+).*|\1|')
+          done
