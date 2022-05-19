@@ -1,0 +1,35 @@
+tagline: Simple terminal UI for git commands
+about: lazygit is a terminal UI (TUI) aimed at easing the burden of remembering arcane git commands
+
+git_user: jesseduffield
+git_repo: lazygit
+info_url: https://github.com/[GIT_USER]/[GIT_REPO]
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[VER]/
+filename_format: lazygit_[VER]_[OS]_[ARCH].[EXT]
+version_format: v[VER]
+latest_strategy: github-release
+
+os_map:
+  linux:
+    name: Linux
+    ext: tar.gz
+    bin_path: lazygit
+  macos:
+    name: Darwin
+    ext: tar.gz
+    bin_path: lazygit
+  win:
+    name: Windows
+    ext: zip
+    bin_path: lazygit
+arch_map:
+  amd64: x86_64
+  arm64: arm64
+  386: 32-bit
+  arm: armv6
+ignore:
+  - os: win
+    arch: arm64
