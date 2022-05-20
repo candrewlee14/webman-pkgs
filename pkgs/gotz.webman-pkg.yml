@@ -1,0 +1,31 @@
+tagline: Golang-based command-line tool to display world time zones graphically.
+about: |
+  Display multiple time zones in context on command line.
+
+git_user: merschformann
+git_repo: gotz
+info_url: https://github.com/[GIT_USER]/[GIT_REPO]
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[VER]/
+filename_format: gotz_[OS]_[ARCH]
+version_format: v[VER]
+latest_strategy: github-release # uses most recent github release tag to get the latest version number
+
+is_binary: true
+
+os_map:
+  linux:
+    name: linux
+  macos: 
+    name: darwin
+  win: 
+    name: windows
+    ext: .exe
+arch_map:
+  amd64: amd64
+  arm64: arm64
+ignore:
+  - os: win
+    arch: arm64  
