@@ -1,0 +1,33 @@
+title: mprocs
+tagline: Run multiple commands in parallel and show output of each command separately.
+about: |
+  Run multiple commands in parallel and show output of each command 
+  separately. Commands can be specified on command line or defined in
+  `mprocs.json` configuration file. Switch between commands in list
+  and output for command is displayed in adjacent terminal window.
+
+git_user: pvolok
+git_repo: mprocs
+info_url: https://github.com/[GIT_USER]/[GIT_REPO]
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[VER]/
+filename_format: mprocs-[VER]-[OS][ARCH].[EXT]
+version_format: v[VER]
+latest_strategy: github-release # uses most recent github release tag to get the latest version number
+
+extract_has_root: false
+
+os_map:
+  linux:
+    name: linux
+    ext: tar.gz
+  macos: 
+    name: macos
+    ext: tar.gz
+  win: 
+    name: win
+    ext: zip
+arch_map:
+  amd64: 64
