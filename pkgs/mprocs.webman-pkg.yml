@@ -30,4 +30,4 @@ os_map:
     name: win
     ext: zip
 arch_map:
-  amd64: 64
+  amd64: "64"
