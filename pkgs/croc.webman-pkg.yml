@@ -27,6 +27,6 @@ os_map:
     bin_path: croc
 arch_map:
   amd64: 64bit
-  386: 32bit
+  "386": 32bit
   arm64: ARM64
   arm: ARM
