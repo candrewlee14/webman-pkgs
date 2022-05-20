@@ -22,7 +22,6 @@ os_map:
     name: darwin
   win: 
     name: windows
-    ext: .exe
 arch_map:
   amd64: amd64
   arm64: arm64
