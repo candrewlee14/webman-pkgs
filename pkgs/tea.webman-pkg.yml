@@ -1,0 +1,38 @@
+tagline: A command line tool to interact with Gitea servers
+about: |
+  Tea is a CLI for interacting with a Gitea instance, much like gh is for GitHub.
+
+git_user: gitea
+git_repo: tea
+gitea_url: "https://gitea.com"
+info_url: https://gitea.com/[GIT_USER]/[GIT_REPO]
+releases_url: https://gitea.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://gitea.com/[GIT_USER]/[GIT_REPO]/
+
+base_download_url: https://gitea.com/[GIT_USER]/[GIT_REPO]/releases/download/v[VER]/
+filename_format: tea-[VER]-[OS]-[ARCH].[EXT]
+version_format: v[VER]
+latest_strategy: gitea-release
+is_binary: true
+
+os_map:
+  linux:
+    name: linux
+  macos:
+    name: darwin
+  win:
+    name: windows
+arch_map:
+  amd64: amd64
+  386: "386"
+  arm64: arm64
+  arm: arm
+ignore:
+  - os: win
+    arch: arm64
+  - os: win
+    arch: arm
+  - os: macos
+    arch: "386"
+  - os: macos
+    arch: arm
