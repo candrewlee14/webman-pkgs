@@ -19,8 +19,6 @@ base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/[V
 filename_format: fzf-[VER]-[OS]_[ARCH].[EXT]
 latest_strategy: github-release # uses most recent github release tag to get the latest version number
 
-extract_has_root: false
-
 os_map:
   linux:
     name: linux

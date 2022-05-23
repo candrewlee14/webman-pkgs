@@ -16,8 +16,6 @@ filename_format: curlie_[VER]_[OS]_[ARCH].[EXT]
 latest_strategy: github-release # uses most recent github release tag to get the latest version number
 version_format: v[VER]
 
-extract_has_root: false
-
 os_map:
   linux:
     name: linux

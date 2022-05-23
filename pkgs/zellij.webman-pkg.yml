@@ -15,8 +15,6 @@ base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[
 filename_format: zellij-[ARCH]-[OS].[EXT]
 latest_strategy: github-release # uses most recent github release tag to get the latest version number
 
-extract_has_root: false
-
 os_map:
   linux:
     name: unknown-linux-musl

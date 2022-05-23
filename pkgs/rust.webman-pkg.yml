@@ -11,7 +11,6 @@ source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
 # this is the format of downloads appended to base_download_url.
 filename_format: rust-[VER]-[ARCH]-[OS].[EXT]
 latest_strategy: github-release # uses most recent github release tag to get the latest version number
-extract_has_root: true
 
 os_map:
   linux:
@@ -29,6 +28,7 @@ os_map:
       - rustc/bin
       - rustfmt-preview/bin
       - rust-demangler-preview/bin
+    extract_has_root: true
   macos:
     name: apple-darwin
     ext: tar.gz
@@ -39,6 +39,7 @@ os_map:
       - rustc/bin
       - rustfmt-preview/bin
       - rust-demangler-preview/bin
+    extract_has_root: true
   win:
     name: pc-windows-gnu
     ext: tar.gz
@@ -49,6 +50,7 @@ os_map:
       - rustc/bin
       - rustfmt-preview/bin
       - rust-demangler-preview/bin
+    extract_has_root: true
 arch_map:
   amd64: x86_64
   arm64: aarch64

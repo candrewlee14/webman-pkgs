@@ -25,21 +25,22 @@ filename_format: zig-[OS]-[ARCH]-[VER].[EXT]
 latest_strategy: github-release # uses most recent github release tag to get the latest version number
 allow_prerelease: true # latest release can be a prerelease
 
-extract_has_root: true
-
 os_map:
   linux:
     name: linux
     ext: tar.xz
     bin_path: zig
+    extract_has_root: true
   macos:
     name: macos
     ext: tar.xz
     bin_path: zig
+    extract_has_root: true
   win:
     name: windows
     ext: zip
     bin_path: zig
+    extract_has_root: true
 arch_map:
   amd64: x86_64
   arm64: aarch64

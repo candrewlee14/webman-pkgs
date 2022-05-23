@@ -16,8 +16,6 @@ filename_format: mprocs-[VER]-[OS][ARCH].[EXT]
 version_format: v[VER]
 latest_strategy: github-release # uses most recent github release tag to get the latest version number
 
-extract_has_root: false
-
 os_map:
   linux:
     name: linux
