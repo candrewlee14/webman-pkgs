@@ -24,7 +24,7 @@ version_format: v[VER]
 
 os_map:
   linux:
-    name: unknown-linux-musl
+    name: unknown-linux-gnu
     ext: tar.gz
     bin_path: hyperfine
     extract_has_root: true
