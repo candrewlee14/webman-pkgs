@@ -19,11 +19,11 @@ filename_format: choose-[ARCH]-[OS]
 version_format: v[VER]
 latest_strategy: github-release # uses most recent github release tag to get the latest version number
 
-is_binary: true
 
 os_map:
   linux:
     name: unknown-linux-musl
+    is_raw_binary: true
   # macos: Unsupported
   #   name: apple-darwin
   #   ext: tar.gz

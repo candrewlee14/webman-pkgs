@@ -16,8 +16,6 @@ filename_format: pboy-[OS]
 version_format: "[VER]"
 latest_strategy: github-release # uses most recent github release tag to get the latest version number
 
-is_binary: false
-
 os_map:
   linux:
     name: linux

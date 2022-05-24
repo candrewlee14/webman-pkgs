@@ -12,8 +12,6 @@ base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/[V
 filename_format: lf-[OS]-[ARCH]
 latest_strategy: github-release # uses most recent github release tag to get the latest version number
 
-is_binary: false
-
 os_map:
   linux:
     name: linux

@@ -23,8 +23,6 @@ version_format: v[VER]
 latest_strategy: github-release # uses most recent github release tag to get the latest version number
 allow_prerelease: true
 
-is_binary: false
-
 os_map:
   linux:
     name: linux

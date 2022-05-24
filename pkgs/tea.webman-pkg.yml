@@ -13,15 +13,17 @@ base_download_url: https://gitea.com/[GIT_USER]/[GIT_REPO]/releases/download/v[V
 filename_format: tea-[VER]-[OS]-[ARCH].[EXT]
 version_format: v[VER]
 latest_strategy: gitea-release
-is_binary: true
 
 os_map:
   linux:
     name: linux
+    ext: xz
   macos:
     name: darwin
+    ext: xz
   win:
     name: windows
+    ext: exe.xz
 arch_map:
   amd64: amd64
   386: "386"
