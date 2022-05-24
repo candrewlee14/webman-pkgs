@@ -23,6 +23,7 @@ os_map:
   #   name: apple-darwin
   win:
     name: pc-windows-gnu
+    ext: exe
     is_raw_binary: true
 arch_map:
   amd64: x86_64

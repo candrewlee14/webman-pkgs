@@ -27,6 +27,7 @@ os_map:
     is_raw_binary: true
   win:
     name: win64
+    ext: exe
     is_raw_binary: true
 arch_map:
   amd64: x86_64
