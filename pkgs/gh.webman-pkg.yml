@@ -1,0 +1,46 @@
+tagline: GitHub's official command line tool
+about: |
+  gh is GitHub on the command line. It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with git and your code.
+
+git_user: cli
+git_repo: cli
+info_url: https://github.com/[GIT_USER]/[GIT_REPO]
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[VER]/
+filename_format: gh_[VER]_[OS]_[ARCH].[EXT]
+version_format: v[VER]
+latest_strategy: github-release
+
+os_map:
+  linux:
+    name: linux
+    ext: tar.gz
+    bin_path: bin/gh
+    extract_has_root: true
+  macos:
+    name: macOS
+    ext: tar.gz
+    bin_path: bin/gh
+    extract_has_root: true
+  win:
+    name: windows
+    ext: zip
+    bin_path: bin/gh
+arch_map:
+  amd64: amd64
+  386: "386"
+  arm64: arm64
+  arm: armv6
+ignore:
+  - os: macos
+    arch: "386"
+  - os: macos
+    arch: arm64
+  - os: macos
+    arch: arm
+  - os: win
+    arch: arm64
+  - os: win
+    arch: arm
