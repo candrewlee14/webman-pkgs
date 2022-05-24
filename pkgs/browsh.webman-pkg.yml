@@ -25,7 +25,7 @@ os_map:
 arch_map:
   amd64: amd64
   arm64: arm64
-  i386: 386
+  386: "386"
 ignore:
   - os: win
     arch: arm64  
