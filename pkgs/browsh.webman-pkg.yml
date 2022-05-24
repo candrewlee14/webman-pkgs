@@ -18,8 +18,7 @@ is_binary: true
 os_map:
   linux:
     name: linux
-  macos: 
-    name: darwin
+  # macos: Unsupported - Binaries are compressed as tar.gz.
   win: 
     name: windows
 arch_map:
@@ -28,6 +27,4 @@ arch_map:
   386: "386"
 ignore:
   - os: win
-    arch: arm64  
-  - os: macos
     arch: arm64
