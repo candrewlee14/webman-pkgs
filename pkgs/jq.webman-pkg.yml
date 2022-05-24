@@ -27,6 +27,7 @@ os_map:
     name: osx-amd64
   win:
     name: win64
+    ext: exe
 arch_map:
   amd64: x86_64
   # arm64: Unsupported
