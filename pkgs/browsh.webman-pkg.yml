@@ -1,0 +1,33 @@
+tagline: Modern text-based browser for console/TTY.
+about: |
+  Modern text-based browser for console/TTY that uses existing installation of Firefox web browser as rendering engine. Therefore, it provides full graphical and JavaScript/HTML5 support in a very small package.
+
+git_user: browsh-org
+git_repo: browsh
+info_url: https://github.com/[GIT_USER]/[GIT_REPO]
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[VER]/
+filename_format: browsh_[VER]_[OS]_[ARCH]
+version_format: v[VER]
+latest_strategy: github-release # uses most recent github release tag to get the latest version number
+
+is_binary: true
+
+os_map:
+  linux:
+    name: linux
+  macos: 
+    name: darwin
+  win: 
+    name: windows
+arch_map:
+  amd64: amd64
+  arm64: arm64
+  i386: 386
+ignore:
+  - os: win
+    arch: arm64  
+  - os: macos
+    arch: arm64
