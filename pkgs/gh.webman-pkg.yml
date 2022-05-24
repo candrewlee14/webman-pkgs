@@ -12,21 +12,22 @@ base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[
 filename_format: gh_[VER]_[OS]_[ARCH].[EXT]
 version_format: v[VER]
 latest_strategy: github-release
-extract_has_root: true
 
 os_map:
   linux:
     name: linux
     ext: tar.gz
     bin_path: bin/gh
+    extract_has_root: true
   macos:
     name: macOS
     ext: tar.gz
     bin_path: bin/gh
+    extract_has_root: true
   win:
     name: windows
     ext: zip
-    bin_path: gh
+    bin_path: bin/gh
 arch_map:
   amd64: amd64
   386: "386"
