@@ -14,21 +14,22 @@ filename_format: node-v[VER]-[OS]-[ARCH].[EXT]
 latest_strategy: arch-linux-community
 arch_linux_pkg_name: nodejs
 
-extract_has_root: true
-
 os_map:
   linux:
     name: linux
     ext: tar.xz
     bin_path: bin/
+    extract_has_root: true
   macos:
     name: darwin
     ext: tar.gz
     bin_path: bin/
+    extract_has_root: true
   win:
     name: win
     ext: zip
     bin_path: ""
+    extract_has_root: true
 arch_map:
   amd64: x64
   arm64: arm64

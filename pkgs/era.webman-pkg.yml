@@ -20,10 +20,10 @@ is_binary: false
 os_map:
   linux:
     name: linux
-    ext: tar.xz
+    ext: tar.gz
   macos:
     name: apple-darwin
-    ext: tar.xz
+    ext: tar.gz
   # win: Unsupported
 arch_map:
   amd64: x86_64

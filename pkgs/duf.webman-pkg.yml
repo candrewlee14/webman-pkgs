@@ -18,8 +18,6 @@ filename_format: duf_[VER]_[OS]_[ARCH].[EXT]
 version_format: v[VER]
 latest_strategy: github-release # uses most recent github release tag to get the latest version number
 
-extract_has_root: false
-
 os_map:
   linux:
     name: linux

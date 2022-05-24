@@ -22,21 +22,23 @@ filename_format: dust-v[VER]-[ARCH]-[OS].[EXT]
 version_format: v[VER]
 latest_strategy: github-release # uses most recent github release tag to get the latest version number
 
-extract_has_root: true
 
 os_map:
   linux:
     name: unknown-linux-musl
     ext: tar.gz
     bin_path: dust
+    extract_has_root: true
   macos:
     name: apple-darwin
     ext: tar.gz
     bin_path: dust
+    extract_has_root: true
   win:
     name: pc-windows-gnu
     ext: zip
     bin_path: dust
+    extract_has_root: true
 arch_map:
   amd64: x86_64
   arm64: aarch64
