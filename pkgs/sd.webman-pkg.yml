@@ -21,13 +21,13 @@ filename_format: sd-v[VER]-[ARCH]-[OS]
 version_format: v[VER]
 latest_strategy: github-release # uses most recent github release tag to get the latest version number
 
-is_binary: true
-
 os_map:
   linux:
     name: unknown-linux-musl
+    is_raw_binary: true
   macos:
     name: apple-darwin
+    is_raw_binary: true
   # win: Unsupported
   #   name: win64
 arch_map:

@@ -18,15 +18,17 @@ filename_format: jq-[OS]
 version_format: jq-[VER]
 latest_strategy: github-release # uses most recent github release tag to get the latest version number
 
-is_binary: true
-
 os_map:
   linux:
     name: linux64
+    is_raw_binary: true
   macos:
     name: osx-amd64
+    is_raw_binary: true
   win:
     name: win64
+    ext: exe
+    is_raw_binary: true
 arch_map:
   amd64: x86_64
   # arm64: Unsupported

@@ -13,15 +13,17 @@ filename_format: gotz_[OS]_[ARCH]
 version_format: v[VER]
 latest_strategy: github-release # uses most recent github release tag to get the latest version number
 
-is_binary: true
-
 os_map:
   linux:
     name: linux
+    is_raw_binary: true
   macos: 
     name: darwin
+    is_raw_binary: true
   win: 
     name: windows
+    ext: exe
+    is_raw_binary: true
 arch_map:
   amd64: amd64
   arm64: arm64
