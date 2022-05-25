@@ -1,0 +1,33 @@
+tagline: Terminal JSON viewer
+about: |
+  Function eXecution
+  ~ Mouse support
+  ~ Streaming support
+  ~ Preserves key order
+  ~ Preserves big numbers
+
+
+git_user: antonmedv
+git_repo: fx
+info_url: https://github.com/[GIT_USER]/[GIT_REPO]
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/[VER]/
+filename_format: fx_[OS]_[ARCH].[EXT]
+latest_strategy: github-release
+
+os_map:
+  linux:
+    name: linux
+    is_raw_binary: true
+  macos:
+    name: darwin
+    is_raw_binary: true
+  win:
+    name: windows
+    ext: exe
+    is_raw_binary: true
+arch_map:
+  amd64: amd64
+  arm64: arm64
