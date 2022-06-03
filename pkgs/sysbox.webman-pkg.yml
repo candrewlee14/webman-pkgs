@@ -1,0 +1,64 @@
+tagline: Collection of simple console utilities packaged as single binary.
+about: |
+  Sysbox includes a collection of small, simple console tools packaged
+  into a single binary. 
+  
+  For a list of all tools/sub-commands, run `sysbox help`.
+  
+  The tools include:
+    calc - calculator
+    choose-file
+    choose-stdin
+    chronic - wrapper for cron jobs
+    comments - outputs comments in C/C++ (single and multi-line formats)
+      and bash formats from specified files
+    collapse - strips white-space (trailing and blank space) from STDIN
+    cpp - a sort of preprocessor for running commands
+    env-template - perform expansion of Golang text/template files
+    exec-stdin - run command on each line of input from STDIN
+    expect - tiny clone of the EXPECT utility
+    find - file search utility with regex support
+    fingerd - simple finger server
+    html2text - remote HTML formatting from text
+    httpd - simple HTTP server for localhost/LAN
+    http-get - Lightwight cURL alternative
+    ips - check IP v4 and v6 addresses on localhost
+    markdown-toc - create table of contents from Markdown file
+    peerd - local cluster maintenance
+    run-directory - run a command on all files in a directory
+    splay - sleep for random amount of time
+    ssl-expiry - report amount of time until SSL/TLS cert expiration
+    timeout - run a command with specified timeout
+    todo - simple "to do" management tool
+    tree - display contents of file system as nested tree
+    urls - extract URLs from file or STDIN
+    validate-json - validate JSON file for syntax and correctness errors.
+    validate-xml - validate XML file for syntax and correctness errors.
+    validate-yaml - validate YAML file for syntax and correctness errors.
+    with-lock - run a command with lock file to prevent parallel execution
+
+git_user: skx
+git_repo: sysbox
+info_url: https://github.com/[GIT_USER]/[GIT_REPO]
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/[VER]/
+filename_format: sysbox-[OS]-[ARCH]
+version_format: "[VER]"
+latest_strategy: github-release # uses most recent github release tag to get the latest version number
+
+is_binary: true
+
+os_map:
+  linux:
+    name: linux
+  macos:
+    name: darwin
+  # win: Unsupported
+arch_map:
+  amd64: amd64
+  i386: i386
+ignore:
+  - os: macos
+    arch: i386
