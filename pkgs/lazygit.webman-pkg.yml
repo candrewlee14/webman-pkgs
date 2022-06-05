@@ -28,7 +28,7 @@ os_map:
 arch_map:
   amd64: x86_64
   arm64: arm64
-  386: 32-bit
+  "386": 32-bit
   arm: armv6
 ignore:
   - os: win

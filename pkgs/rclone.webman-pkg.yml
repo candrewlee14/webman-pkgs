@@ -30,4 +30,3 @@ os_map:
 arch_map:
   arm64: arm64
   amd64: amd64
-  

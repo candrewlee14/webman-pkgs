@@ -26,7 +26,7 @@ os_map:
     ext: exe.xz
 arch_map:
   amd64: amd64
-  386: "386"
+  "386": "386"
   arm64: arm64
   arm: arm
 ignore:
