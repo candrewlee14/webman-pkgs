@@ -1,0 +1,33 @@
+tagline: rsync for cloud storage
+about: Rclone ("rsync for cloud storage") is a command-line program to sync files and directories to and from different cloud storage providers.
+git_user: rclone
+git_repo: rclone
+info_url: https://github.com/[GIT_USER]/[GIT_REPO]
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[VER]/
+filename_format: rclone-v[VER]-[OS]-[ARCH].[EXT]
+version_format: v[VER]
+latest_strategy: github-release
+
+os_map:
+  linux:
+    name: linux
+    bin_path: rclone
+    extract_has_root: true
+    ext: zip
+  macos:
+    name: osx
+    bin_path: rclone
+    extract_has_root: true
+    ext: zip
+  win:
+    name: windows
+    bin_path: rclone
+    extract_has_root: true
+    ext: zip
+arch_map:
+  arm64: arm64
+  amd64: amd64
+  
