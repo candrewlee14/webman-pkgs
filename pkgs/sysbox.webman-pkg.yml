@@ -48,17 +48,17 @@ filename_format: sysbox-[OS]-[ARCH]
 version_format: "[VER]"
 latest_strategy: github-release # uses most recent github release tag to get the latest version number
 
-is_raw_binary: true
-
 os_map:
   linux:
     name: linux
+    is_raw_binary: true
   macos:
     name: darwin
+    is_raw_binary: true
   # win: Unsupported
 arch_map:
   amd64: amd64
-  i386: i386
+  "386": i386
 ignore:
   - os: macos
-    arch: i386
+    arch: "386"
