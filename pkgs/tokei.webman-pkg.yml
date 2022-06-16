@@ -1,0 +1,40 @@
+tagline: Count your code, quickly.
+about: |
+  Tokei is a program that displays statistics about your code. 
+  Tokei will show the number of files, total lines within those files and code, comments, and blanks grouped by language.
+git_user: XAMPPRocky
+git_repo: tokei
+info_url: https://github.com/[GIT_USER]/[GIT_REPO]
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[VER]/
+filename_format: tokei-[ARCH]-[OS].[EXT]
+version_format: v[VER]
+latest_strategy: github-release # uses most recent github release tag to get the latest version number
+
+os_map:
+  linux:
+    name: unknown-linux-gnu
+    ext: tar.gz
+    bin_path: tokei
+    extract_has_root: false
+  macos:
+    name: apple-darwin
+    ext: tar.gz
+    bin_path: tokei
+    extract_has_root: false
+  win:
+    name: pc-windows-msvc
+    ext: exe
+    bin_path: tokei
+    is_raw_binary: true
+arch_map:
+  amd64: x86_64
+  arm64: aarch64
+
+ignore:
+  - os: macos
+    arch: arm64
+  - os: win
+    arch: arm64
