@@ -1,0 +1,40 @@
+tagline: Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
+about: |
+  bun is a new:
+  - JavaScript runtime with Web APIs like fetch, WebSocket, and several more builtin. bun embeds JavaScriptCore, which tends to be faster and more memory efficient than more popular engines like V8 (though harder to embed)
+  - JavaScript/TypeScript/JSX transpiler
+  - JavaScript & CSS bundler
+  - Task runner for package.json scripts
+  - npm-compatible package manager
+
+git_user: Jarred-Sumner
+git_repo: bun
+info_url: https://github.com/[GIT_USER]/[GIT_REPO]
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/bun-v[VER]/
+version_format: bun-v[VER]
+filename_format: bun-[OS]-[ARCH].[EXT]
+latest_strategy: github-release # uses most recent github release tag to get the latest version number
+
+os_map:
+  linux:
+    name: linux
+    ext: zip
+    bin_path: bun
+    extract_has_root: true
+  macos:
+    name: darwin
+    ext: zip
+    bin_path: bun
+    extract_has_root: true
+  # win: Unsupported
+arch_map:
+  amd64: x64
+  arm64: aarch64
+
+ignore:
+  - os: linux
+    arch: arm64
+
