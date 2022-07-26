@@ -7,7 +7,7 @@ about: |
   - Task runner for package.json scripts
   - npm-compatible package manager
 
-git_user: Jarred-Sumner
+git_user: oven-sh
 git_repo: bun
 info_url: https://github.com/[GIT_USER]/[GIT_REPO]
 releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
