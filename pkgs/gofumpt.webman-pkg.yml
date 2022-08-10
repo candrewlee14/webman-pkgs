@@ -1,0 +1,39 @@
+tagline: A stricter gofmt
+about: Enforce a stricter format than gofmt, while being backwards compatible. That is, gofumpt is happy with a subset of the formats that gofmt is happy with.
+
+git_user: mvdan
+git_repo: gofumpt
+info_url: https://github.com/[GIT_USER]/[GIT_REPO]
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[VER]/
+filename_format: gofumpt_v[VER]_[OS]_[ARCH].[EXT]
+version_format: v[VER]
+latest_strategy: github-release
+
+os_map:
+  linux:
+    name: linux
+    is_raw_binary: true
+  macos:
+    name: darwin
+    is_raw_binary: true
+  win:
+    name: windows
+    ext: exe
+    is_raw_binary: true
+arch_map:
+  amd64: amd64
+  "386": "386"
+  arm64: arm64
+  arm: arm
+ignore:
+  - os: win
+    arch: arm64
+  - os: win
+    arch: arm
+  - os: macos
+    arch: arm
+  - os: macos
+    arch: "386"
