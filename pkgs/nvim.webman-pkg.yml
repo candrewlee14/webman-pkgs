@@ -34,5 +34,11 @@ os_map:
     bin_path: bin
     extract_has_root: true
 arch_map:
-  amd64: unused
-# arm64: Unsupported
+  amd64: amd64
+  arm64: arm64
+
+ignore:
+  - os: linux
+    arch: arm64
+  - os: win
+    arch: arm64
