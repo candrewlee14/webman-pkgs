@@ -23,10 +23,10 @@ os_map:
   win:
     name: windows
     ext: exe.zip
-    bin_path: dist
-    # TODO: This is awkward because the binary in this folder is called cheat-windows-amd64.exe
-    # so the ~/.webman/bin installed link is cheat-windows-amd64 when it should probably be cheat.
-    # Maybe add regex matching to rename?
+    bin_path: "cheat-windows-amd64"
+    renames:
+      - from: cheat-windows-amd64
+      - to: cheat
 arch_map:
   amd64: amd64
   arm64: arm64
