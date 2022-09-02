@@ -1,0 +1,40 @@
+tagline: universal markup converter
+about: |
+  Pandoc is a Haskell library for converting from one markup format to another, and a command-line tool that uses this library.
+
+git_user: jgm
+git_repo: pandoc
+info_url: https://github.com/[GIT_USER]/[GIT_REPO]
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/[VER]/
+filename_format: pandoc-[VER]-[OS]-[ARCH].[EXT]
+version_format: "[VER]"
+latest_strategy: github-release # uses most recent github release tag to get the latest version number
+
+os_map:
+  linux:
+    name: linux 
+    ext: tar.gz
+    bin_path: bin/
+    extract_has_root: true
+  macos:
+    name: macOS
+    filename_format_override: "pandoc-[VER]-[OS].[EXT]"
+    ext: zip
+    bin_path: bin/
+    extract_has_root: true
+  win:
+    name: windows
+    filename_format_override: "pandoc-[VER]-[OS]-x86_64.[EXT]"
+    ext: zip
+    bin_path: pandoc
+    extract_has_root: true
+arch_map:
+  amd64: amd64
+  arm64: arm64
+
+ignore:
+  - os: win
+    arch: arm64
