@@ -1,0 +1,42 @@
+tagline: A post-modern modal text editor.
+about: |
+  A kakoune / neovim inspired editor, written in Rust.
+  The editing model is very heavily based on kakoune.
+
+git_user: helix-editor
+git_repo: helix
+info_url: https://helix-editor.com/
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/[VER]/
+filename_format: helix-[VER]-[ARCH]-[OS].[EXT]
+version_format: "[VER]"
+latest_strategy: github-release # uses most recent github release tag to get the latest version number
+
+
+os_map:
+  linux:
+    name: linux
+    ext: tar.xz
+    bin_path: hx
+    extract_has_root: true
+  macos:
+    name: macos
+    ext: tar.xz
+    bin_path: hx
+    extract_has_root: true
+  win:
+    name: windows
+    ext: zip
+    bin_path: hx
+    extract_has_root: true
+arch_map:
+  amd64: x86_64
+  arm64: aarch64
+
+ignore:
+  - os: linux
+    arch: arm64
+  - os: win
+    arch: arm64
