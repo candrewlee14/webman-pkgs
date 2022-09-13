@@ -1,0 +1,39 @@
+tagline: age is a simple, modern and secure file encryption tool, format, and Go library.
+about: A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and UNIX-style composability.
+
+git_user: FiloSottile
+git_repo: age
+info_url: https://github.com/[GIT_USER]/[GIT_REPO]
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[VER]/
+filename_format: age-v[VER]-[OS]-[ARCH].[EXT]
+version_format: v[VER]
+latest_strategy: github-release
+
+os_map:
+  linux:
+    name: linux
+    ext: tar.gz
+    bin_path: age
+  macos:
+    name: darwin
+    ext: tar.gz
+    bin_path: age
+  win:
+    name: windows
+    ext: zip
+    bin_path: age
+arch_map:
+  amd64: amd64
+  arm64: arm64
+  arm: arm
+
+ignore:
+  - os: macos
+    arch: arm
+  - os: win
+    arch: arm64
+  - os: win
+    arch: arm
