@@ -1,0 +1,43 @@
+tagline: A prompt theme engine for any shell.
+about: |
+  Features
+    Shell and platform agnostic
+    Easily configurable
+    The most configurable prompt utility
+    Fast
+    Secondary prompt
+    Right prompt
+    Transient prompt
+
+git_user: JanDeDobbeleer
+git_repo: oh-my-posh
+info_url: https://stedolan.github.io/jq/
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[VER]/
+filename_format: posh-[OS]-[ARCH].[EXT]
+version_format: v[VER]
+latest_strategy: github-release
+
+os_map:
+  linux:
+    name: linux
+    is_raw_binary: true
+  macos:
+    name: darwin
+    is_raw_binary: true
+  win:
+    name: windows
+    ext: exe
+    is_raw_binary: true
+arch_map:
+  amd64: amd64
+  arm64: arm64
+  "386": "386"
+
+ignore:
+  - os: macos
+    arch: "386"
+  - os: linux
+    arch: "386"
