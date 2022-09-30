@@ -1,6 +1,8 @@
 tagline: The Go programming language
 about: |
   Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
+install_note: Remember to add GOROOT to your PATH
+remove_note: Remember to remove GOROOT from your PATH
 
 git_user: golang
 git_repo: go

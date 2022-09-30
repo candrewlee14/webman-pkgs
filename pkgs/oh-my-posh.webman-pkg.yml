@@ -8,6 +8,7 @@ about: |
     Secondary prompt
     Right prompt
     Transient prompt
+install_note: To use oh-my-posh in your prompt, take a look at https://ohmyposh.dev/docs/installation/prompt
 
 git_user: JanDeDobbeleer
 git_repo: oh-my-posh
