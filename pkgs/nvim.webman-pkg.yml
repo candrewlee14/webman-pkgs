@@ -33,6 +33,7 @@ os_map:
     ext: zip
     bin_path: bin
     extract_has_root: true
+    install_note: nvim currently has an issue with symlinks on Windows. A workaround would be to use "webman run nvim" instead.
 arch_map:
   amd64: amd64
   arm64: arm64
