@@ -25,7 +25,9 @@ os_map:
     name: pc-windows-gnu
     ext: exe
     is_raw_binary: true
-    install_note: "broot currently requires some tweaks on Windows for it's companion command \"br\" to work, related: https://github.com/Canop/broot/issues/588"
+    install_note: |
+      broot currently requires some tweaks on Windows for it's companion command "br" to work, related:
+      https://github.com/Canop/broot/issues/588
 arch_map:
   amd64: x86_64
   # arm64: Unsupported
