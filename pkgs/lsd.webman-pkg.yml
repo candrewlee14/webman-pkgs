@@ -31,7 +31,7 @@ os_map:
     bin_path: lsd
     extract_has_root: true
     install_note: |
-      lsd is currently a slow on Windows, related: 
+      lsd is currently slow on Windows, related: 
       https://github.com/Peltoche/lsd/issues/200
 arch_map:
   amd64: x86_64
