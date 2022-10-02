@@ -1,0 +1,27 @@
+tagline: The fastest way to identify anything!
+about: lemmeknow can be used for identifying mysterious text or to analyze hard-coded strings from captured network packets, malwares, or just about anything.
+
+git_user: swanandx
+git_repo: lemmeknow
+info_url: https://github.com/[GIT_USER]/[GIT_REPO]
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[VER]/
+filename_format: lemmeknow-[OS].[EXT]
+version_format: v[VER]
+latest_strategy: github-release
+
+os_map:
+  linux:
+    name: linux
+    is_raw_binary: true
+  macos:
+    name: macos
+    is_raw_binary: true
+  win:
+    name: windows
+    ext: exe
+    is_raw_binary: true
+arch_map:
+  amd64: amd64
