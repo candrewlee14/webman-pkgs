@@ -1,0 +1,37 @@
+tagline: A new type of shell
+about: |
+  Pipelines to control any OS
+  Everything is data
+  Powerful plugins
+
+git_user: nushell
+git_repo: nushell
+info_url: https://github.com/[GIT_USER]/[GIT_REPO]
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/[VER]/
+filename_format: nu-[VER]-[ARCH]-[OS].[EXT]
+latest_strategy: github-release
+
+os_map:
+  linux:
+    name: unknown-linux-gnu
+    ext: tar.gz
+    bin_path: nu
+  macos:
+    name: apple-darwin
+    ext: tar.gz
+    bin_path: nu
+  win:
+    name: pc-windows-msvc
+    ext: zip
+    bin_path: nu
+arch_map:
+  amd64: x86_64
+  arm64: aarch64
+ignore:
+  - os: linux
+    arch: arm64
+  - os: win
+    arch: arm64
