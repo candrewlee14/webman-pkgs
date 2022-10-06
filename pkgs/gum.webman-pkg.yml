@@ -1,0 +1,36 @@
+tagline: A tool for glamorous shell scripts 🎀
+about: Leverage the power of Bubbles and Lip Gloss in your scripts and aliases without writing any Go code!
+
+git_user: charmbracelet
+git_repo: gum
+info_url: https://github.com/[GIT_USER]/[GIT_REPO]
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[VER]/
+filename_format: gum_[VER]_[OS]_[ARCH].[EXT]
+version_format: v[VER]
+latest_strategy: github-release
+
+os_map:
+  linux:
+    name: linux
+    ext: tar.gz
+    bin_path: gum
+  macos:
+    name: Darwin
+    ext: tar.gz
+    bin_path: gum
+  win:
+    name: Windows
+    ext: zip
+    bin_path: gum
+arch_map:
+  amd64: x86_64
+  "386": i386
+  arm64: arm64
+ignore:
+  - os: macos
+    arch: "386"
+  - os: win
+    arch: arm64
