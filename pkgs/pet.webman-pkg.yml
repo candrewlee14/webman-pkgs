@@ -1,0 +1,40 @@
+tagline: Simple command-line snippet manager
+about: |  
+    Register your command snippets easily.
+    Use variables in snippets.
+    Search snippets interactively.
+    Run snippets directly.
+    Edit snippets easily (config is just a TOML file).
+    Sync snippets via Gist or GitLab Snippets automatically.
+
+git_user: knqyf263
+git_repo: pet
+info_url: https://github.com/[GIT_USER]/[GIT_REPO]
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[VER]/
+filename_format: pet_[VER]_[OS]_[ARCH].[EXT]
+version_format: v[VER]
+latest_strategy: github-release
+
+os_map:
+  linux:
+    name: linux
+    ext: tar.gz
+    bin_path: pet
+  macos:
+    name: darwin
+    ext: tar.gz
+    bin_path: pet
+  win:
+    name: windows
+    ext: tar.gz
+    bin_path: pet
+arch_map:
+  amd64: amd64
+  "386": "386"
+  arm64: arm64
+ignore:
+  - os: macos
+    arch: "386"
