@@ -1,0 +1,31 @@
+tagline: Contextual information about your git projects, right on the command-line
+about: gitty is a smart little CLI helper for git projects, that shows you all the relevant issues, pull requests and changes at a quick glance, right on the command-line. It currently supports the GitHub, GitLab, and Gitea APIs.
+
+git_user: muesli
+git_repo: gitty
+info_url: https://github.com/[GIT_USER]/[GIT_REPO]
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[VER]/
+filename_format: gitty_[VER]_[OS]_[ARCH].[EXT]
+version_format: v[VER]
+latest_strategy: github-release
+
+os_map:
+  linux:
+    name: linux
+    ext: tar.gz
+    bin_path: gitty
+  macos:
+    name: Darwin
+    ext: tar.gz
+    bin_path: gitty
+  win:
+    name: Windows
+    ext: zip
+    bin_path: gitty
+arch_map:
+  amd64: x86_64
+  "386": i386
+  arm64: arm64
