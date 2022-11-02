@@ -1,0 +1,48 @@
+tagline: A modern and intuitive terminal-based text editor 
+about: micro is a terminal-based text editor that aims to be easy to use and intuitive, while also taking advantage of the capabilities of modern terminals. It comes as a single, batteries-included, static binary with no dependencies; you can download and use it right now!
+
+git_user: zyedidia
+git_repo: micro
+info_url: https://github.com/[GIT_USER]/[GIT_REPO]
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[VER]/
+filename_format: micro-[VER]-[OS][ARCH].[EXT]
+version_format: v[VER]
+latest_strategy: github-release
+
+os_map:
+  linux:
+    name: linux
+    ext: tar.gz
+    bin_path: micro
+    extract_has_root: true
+  macos:
+    name: osx
+    ext: tar.gz
+    bin_path: micro
+    filename_format_override: micro-[VER]-osx
+    extract_has_root: true
+  win:
+    name: win
+    ext: zip
+    bin_path: micro
+    extract_has_root: true
+arch_map:
+  amd64: "64"
+  "386": "32"
+  arm64: -arm64
+  arm: -arm
+
+ignore:
+  - os: macos
+    arch: "386"
+  - os: macos
+    arch: arm64
+  - os: macos
+    arch: arm
+  - os: win
+    arch: arm64
+  - os: win
+    arch: arm
