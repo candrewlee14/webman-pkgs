@@ -8,13 +8,13 @@ releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
 source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
 
 base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[VER]/
-filename_format: glow_[VER]_[OS]_[ARCH].[EXT]
+filename_format: glow_[OS]_[ARCH].[EXT]
 version_format: v[VER]
 latest_strategy: github-release
 
 os_map:
   linux:
-    name: linux
+    name: Linux
     ext: tar.gz
     bin_path: glow
   macos:
