@@ -19,10 +19,12 @@ os_map:
     name: unknown-linux-gnu
     ext: tar.gz
     bin_path: nu
+    extract_has_root: true
   macos:
     name: apple-darwin
     ext: tar.gz
     bin_path: nu
+    extract_has_root: true
   win:
     name: pc-windows-msvc
     ext: zip
