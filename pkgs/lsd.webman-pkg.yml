@@ -38,7 +38,5 @@ arch_map:
   arm64: aarch64
 
 ignore:
-  - os: macos
-    arch: arm64
   - os: win
     arch: arm64
