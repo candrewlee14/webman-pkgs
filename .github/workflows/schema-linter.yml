@@ -16,6 +16,6 @@ jobs:
       - name: Setup Go
         uses: actions/setup-go@v3
         with:
-          go-version: "1.18.2"
+          go-version: "1.22"
       - name: Run linter
-        run: go run github.com/candrewlee14/webman@main dev check .
+        run: go run github.com/candrewlee14/webman@latest dev check .
