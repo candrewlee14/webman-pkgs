@@ -1,0 +1,39 @@
+tagline: A Git-compatible VCS that is both simple and powerful
+about: |
+  Jujutsu is a powerful version control system for software projects. 
+  You use it to get a copy of your code, track changes to the code, and finally publish those changes for others to see and use. 
+  It is designed from the ground up to be easy to use—whether you're new or experienced, working on brand new projects alone, or large scale software projects with large histories and teams.
+
+git_user: martinvonz
+git_repo: jj
+info_url: https://github.com/[GIT_USER]/[GIT_REPO]
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[VER]/
+filename_format: jj-v[VER]-[ARCH]-[OS].[EXT]
+latest_strategy: github-release # uses most recent github release tag to get the latest version number
+version_format: v[VER]
+
+os_map:
+  linux:
+    name: unknown-linux-musl
+    ext: tar.gz
+    bin_path: jj
+  macos:
+    name: apple-darwin
+    ext: tar.gz
+    bin_path: jj
+  win:
+    name: pc-windows-msvc
+    ext: zip
+    bin_path: jj
+arch_map:
+  amd64: x86_64
+  arm64: aarch64
+
+ignore:
+  - os: linux
+    arch: arm64
+  - os: win
+    arch: arm64
