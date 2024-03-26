@@ -1,0 +1,36 @@
+tagline: SQL OLAP DBMS
+about: |
+  DuckDB is an in-process SQL OLAP Database Management System
+git_user: duckdb
+git_repo: duckdb
+info_url: https://github.com/[GIT_USER]/[GIT_REPO]
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[VER]/
+filename_format: duckdb_cli-[OS]-[ARCH].[EXT]
+version_format: v[VER]
+latest_strategy: github-release # uses most recent github release tag to get the latest version number
+
+
+os_map:
+  linux:
+    name: linux
+    ext: zip
+    bin_path: duckdb
+  macos:
+    name: osx
+    ext: zip
+    filename_format_override: duckdb_cli-osx-universal
+    bin_path: duckdb
+  win:
+    name: windows
+    ext: zip
+    bin_path: duckdb
+arch_map:
+  amd64: amd64
+  arm64: aarch64
+
+ignore:
+  - os: win
+    arch: arm64
