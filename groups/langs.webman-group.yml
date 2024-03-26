@@ -1,4 +1,9 @@
+title: langs
+tagline: Programming languages
+description: This group contains programming languages.
 packages:
   - go
   - zig
   - rust
+  - node
+  - bun

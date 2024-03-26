@@ -1,3 +1,6 @@
+title: modern-unix
+tagline: Modern Unix tools
+description: Modern Unix tools. Many of these are replacements for traditional Unix tools, with more features, colorful UIs, and better performance.
 packages:
   - bat
   - exa
