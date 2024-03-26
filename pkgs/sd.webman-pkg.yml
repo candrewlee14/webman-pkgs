@@ -24,12 +24,24 @@ latest_strategy: github-release # uses most recent github release tag to get the
 os_map:
   linux:
     name: unknown-linux-musl
-    is_raw_binary: true
+    bin_path: sd
+    ext: tar.gz
+    extract_has_root: true
   macos:
     name: apple-darwin
-    is_raw_binary: true
-  # win: Unsupported
-  #   name: win64
+    bin_path: sd
+    ext: tar.gz
+    extract_has_root: true
+  win:
+    name: pc-windows-gnu
+    bin_path: sd
+    ext: zip
+    extract_has_root: true
+
 arch_map:
   amd64: x86_64
-  # arm64: Unsupported
+  arm64: aarch64
+
+ignore:
+  - os: win
+    arch: arm64
