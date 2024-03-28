@@ -20,6 +20,7 @@ packages:
   - cheat
   # - tldr
   - bottom
+  - zenith
   # - glances
   # - gtop
   - hyperfine

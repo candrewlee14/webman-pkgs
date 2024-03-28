@@ -1,0 +1,31 @@
+tagline: Terminal graphical system monitor
+about: |
+  Zenith is sort of like top or htop but with zoom-able charts, CPU, GPU, network, and disk usage.
+
+git_user: bvaisvil
+git_repo: zenith
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+version_format: "[VER]"
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/[VER]/
+filename_format: zenith.[ARCH]-[OS].[EXT]
+latest_strategy: github-release # uses most recent github release tag to get the latest version number
+
+os_map:
+  linux:
+    name: unknown-linux-musl
+    ext: tgz
+    bin_path: zenith
+  macos:
+    name: apple-darwin
+    ext: tgz
+    bin_path: zenith
+# win: Unsupported
+arch_map:
+  amd64: x86_64
+  arm64: aarch64
+
+ignore:
+  - os: linux
+    arch: arm64
