@@ -2,32 +2,28 @@ title: modern-unix
 tagline: Modern Unix tools
 description: Modern Unix tools. Many of these are replacements for traditional Unix tools, with more features, colorful UIs, and better performance.
 packages:
-  - bat
-  - exa
-  - lsd
-  - delta
-  - dust
-  - duf
-  - broot
-  - fd
-  - rg
-  # - ag # Unclear how to get os-arch-specific downloads
-  - fzf
-  - mcfly
-  - choose
-  - jq
-  - sd
-  - cheat
-  # - tldr
-  - bottom
-  - zenith
-  # - glances
-  # - gtop
-  - hyperfine
-  - gping
-  - procs
-  # - httpie
-  - curlie
-  - xh
-  - zoxide
-  - dog
+  - bat # replace cat
+  - exa # replace ls
+  - lsd # replace ls
+  - delta # replace diff
+  - dust # replace du
+  - duf # replace du
+  - broot # replace tree
+  - fd # replace find
+  - rg # replace grep
+  - fzf # replace grep
+  - mcfly # replace history
+  - choose # replace cut
+  - jq # replace awk
+  - sd # replace sed
+  - cheat # replace man
+  - bottom # replace top
+  - zenith # replace top
+  - hyperfine # replace time
+  - gping # replace ping
+  - procs # replace ps
+  - curlie # replace curl
+  - xh # replace curl
+  - zoxide # replace cd
+  - dog # replace dig
+  - watchexec # replace fswatch

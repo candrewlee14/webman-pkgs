@@ -1,0 +1,43 @@
+tagline: Executes commands in response to file modifications
+about: |
+  Software development often involves running the same commands over and over. Boring!
+  watchexec is a simple, standalone tool that watches a path and runs a command whenever it detects modifications.
+
+  Example use cases:
+  - Automatically run unit tests
+  - Run linters/syntax checkers
+  - Rebuild artifacts
+
+git_user: watchexec
+git_repo: watchexec
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+version_format: v[VER]
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[VER]/
+filename_format: watchexec-[VER]-[ARCH]-[OS].[EXT]
+latest_strategy: github-release # uses most recent github release tag to get the latest version number
+
+os_map:
+  linux:
+    name: unknown-linux-musl
+    ext: tar.xz
+    bin_path: watchexec
+    extract_has_root: true
+  macos:
+    name: apple-darwin
+    ext: tar.xz
+    bin_path: watchexec
+    extract_has_root: true
+  win:
+    name: pc-windows-msvc
+    ext: zip
+    bin_path: watchexec
+    extract_has_root: true
+arch_map:
+  amd64: x86_64
+  arm64: aarch64
+
+ignore:
+  - os: win
+    arch: arm64
