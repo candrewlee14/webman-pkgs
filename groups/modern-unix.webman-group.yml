@@ -27,3 +27,4 @@ packages:
   - zoxide # replace cd
   - dog # replace dig
   - watchexec # replace fswatch
+  - yazi # replace ranger and nnn

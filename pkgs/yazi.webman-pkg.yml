@@ -1,0 +1,35 @@
+tagline: Terminal file manager written in Rust, based on async I/O.
+about: |
+  Yazi (means "duck") is a terminal file manager written in Rust, based on non-blocking async I/O. 
+  It aims to provide an efficient, user-friendly, and customizable file management experience.
+
+git_user: sxyazi
+git_repo: yazi
+info_url: https://yazi-rs.github.io/
+releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
+source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
+
+version_format: v[VER]
+base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[VER]/
+filename_format: yazi-[ARCH]-[OS].[EXT]
+latest_strategy: github-release # uses most recent github release tag to get the latest version number
+
+os_map:
+  linux:
+    name: unknown-linux-musl
+    ext: zip
+    bin_path: yazi
+    extract_has_root: true
+  macos:
+    name: apple-darwin
+    ext: zip
+    bin_path: yazi
+    extract_has_root: true
+  win:
+    name: pc-windows-msvc
+    ext: zip
+    bin_path: yazi
+    extract_has_root: true
+arch_map:
+  amd64: x86_64
+  arm64: aarch64
