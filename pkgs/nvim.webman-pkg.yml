@@ -14,12 +14,12 @@ source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
 
 version_format: v[VER]
 base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[VER]/
-filename_format: nvim-[OS].[EXT]
+filename_format: nvim-[OS]-[ARCH].[EXT]
 latest_strategy: github-release # uses most recent github release tag to get the latest version number
 
 os_map:
   linux:
-    name: linux64
+    name: linux
     ext: tar.gz
     bin_path: bin
     extract_has_root: true
@@ -33,13 +33,12 @@ os_map:
     ext: zip
     bin_path: bin
     extract_has_root: true
+    filename_format_override: nvim-win64.[EXT]
     install_note: nvim currently has an issue with symlinks on Windows. A workaround would be to use "webman run nvim" instead.
 arch_map:
-  amd64: amd64
+  amd64: x86_64
   arm64: arm64
 
 ignore:
-  - os: linux
-    arch: arm64
   - os: win
     arch: arm64
