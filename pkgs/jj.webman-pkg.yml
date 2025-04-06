@@ -4,7 +4,7 @@ about: |
   You use it to get a copy of your code, track changes to the code, and finally publish those changes for others to see and use. 
   It is designed from the ground up to be easy to use—whether you're new or experienced, working on brand new projects alone, or large scale software projects with large histories and teams.
 
-git_user: martinvonz
+git_user: jj-vcs
 git_repo: jj
 info_url: https://github.com/[GIT_USER]/[GIT_REPO]
 releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
@@ -33,7 +33,5 @@ arch_map:
   arm64: aarch64
 
 ignore:
-  - os: linux
-    arch: arm64
   - os: win
     arch: arm64
