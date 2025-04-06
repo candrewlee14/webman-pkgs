@@ -8,7 +8,7 @@ releases_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/
 source_url: https://github.com/[GIT_USER]/[GIT_REPO]/
 
 base_download_url: https://github.com/[GIT_USER]/[GIT_REPO]/releases/download/v[VER]/
-filename_format: croc_[VER]_[OS]-[ARCH].[EXT]
+filename_format: croc_v[VER]_[OS]-[ARCH].[EXT]
 version_format: v[VER]
 latest_strategy: github-release
 
